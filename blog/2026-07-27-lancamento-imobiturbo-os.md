@@ -9,7 +9,7 @@ authors:
 
 É com orgulho que oficializamos o lançamento da versão 1.0 do Imobiturbo.OS, a plataforma definitiva para atendimento comercial e CRM imobiliário.
 
-<!-- truncate -->
+{/* truncate */}
 
 ## ✨ Principais Funcionalidades
 

@@ -9,7 +9,7 @@ authors:
 
 Chegou a versão 1.1 do Imobiturbo.OS, trazendo maior autonomia na manutenção da plataforma e estabilidade operacional.
 
-<!-- truncate -->
+{/* truncate */}
 
 ## ✨ Novo
 
