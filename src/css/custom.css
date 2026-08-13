@@ -1,0 +1,233 @@
+/**
+ * Custom CSS for Imobiturbo.OS Help Center
+ */
+
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+
+  --ifm-code-font-size: 92%;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --ifm-heading-font-weight: 700;
+  --ifm-line-height-base: 1.65;
+  --ifm-navbar-height: 3.75rem;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode default styling */
+[data-theme='dark'] {
+  --ifm-background-color: #090a0f;
+  --ifm-background-surface-color: #12141c;
+  --ifm-color-content: #f0f2f8;
+  --ifm-color-content-secondary: #8e95ad;
+  --ifm-toc-border-color: #232738;
+  --ifm-hr-border-color: #232738;
+  --ifm-navbar-background-color: #0d0f17;
+  --ifm-footer-background-color: #090a0f;
+  --ifm-card-background-color: #12141c;
+  --ifm-menu-color-active: #38bdf8;
+  --ifm-menu-color-background-active: rgba(37, 99, 235, 0.12);
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Light mode support */
+[data-theme='light'] {
+  --ifm-background-color: #f8fafc;
+  --ifm-background-surface-color: #ffffff;
+  --ifm-color-content: #0f172a;
+  --ifm-color-content-secondary: #475569;
+  --ifm-toc-border-color: #e2e8f0;
+  --ifm-hr-border-color: #e2e8f0;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #0f172a;
+  --ifm-card-background-color: #ffffff;
+  --ifm-menu-color-active: #2563eb;
+  --ifm-menu-color-background-active: rgba(37, 99, 235, 0.08);
+}
+
+/* Navbar polish */
+.navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  box-shadow: none;
+}
+
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.navbar-cta-button {
+  background: var(--ifm-color-primary);
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.9rem !important;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  margin-left: 0.5rem;
+}
+
+.navbar-cta-button:hover {
+  background: var(--ifm-color-primary-dark);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* Docs Article Typography & Layout */
+.markdown h1:first-child {
+  font-size: 2.2rem;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  padding-bottom: 0.4rem;
+}
+
+.markdown h3 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Screenshot image styling with subtle border and shadow */
+.markdown img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-toc-border-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  margin: 1.5rem 0 2rem 0;
+  background-color: var(--ifm-background-surface-color);
+}
+
+/* Step badges and workflow callouts */
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+/* Footer polish */
+.footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
+  padding: 3rem 0;
+}
+
+.footer__title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.footer__link-item {
+  font-size: 0.88rem;
+  color: var(--ifm-color-content-secondary);
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-light);
+}
+
+/* Homepage Hero & Cards */
+.hero-banner {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(37, 99, 235, 0.08) 0%, transparent 100%);
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+.hero-banner h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  margin-bottom: 0.8rem;
+}
+
+.hero-banner p {
+  font-size: 1.25rem;
+  color: var(--ifm-color-content-secondary);
+  max-width: 680px;
+  margin: 0 auto 2rem auto;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+.category-card {
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: 12px;
+  padding: 1.75rem;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.category-card:hover {
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.category-card-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(37, 99, 235, 0.1);
+}
+
+.category-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.category-card-desc {
+  font-size: 0.9rem;
+  color: var(--ifm-color-content-secondary);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.category-card-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
