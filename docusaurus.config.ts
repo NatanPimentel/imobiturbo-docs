@@ -17,7 +17,8 @@ const config: Config = {
   onBrokenLinks: 'throw',
 
   future: {
-    experimental_faster: false,
+    v4: true,
+    faster: true,
   },
 
   i18n: {

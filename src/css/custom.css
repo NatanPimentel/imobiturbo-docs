@@ -1,15 +1,17 @@
 /**
  * Custom CSS for Imobiturbo.OS Help Center
+ * Aligned with Imobiturbo Design System (Sage & Greige palette)
  */
 
 :root {
-  --ifm-color-primary: #2563eb;
-  --ifm-color-primary-dark: #1d4ed8;
-  --ifm-color-primary-darker: #1e40af;
-  --ifm-color-primary-darkest: #1e3a8a;
-  --ifm-color-primary-light: #3b82f6;
-  --ifm-color-primary-lighter: #60a5fa;
-  --ifm-color-primary-lightest: #93c5fd;
+  /* Sage primary palette (light mode) */
+  --ifm-color-primary: #506d48;
+  --ifm-color-primary-dark: #41573b;
+  --ifm-color-primary-darker: #374731;
+  --ifm-color-primary-darkest: #2f3c2b;
+  --ifm-color-primary-light: #67885d;
+  --ifm-color-primary-lighter: #82a077;
+  --ifm-color-primary-lightest: #a4ba9a;
 
   --ifm-code-font-size: 92%;
   --ifm-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -17,39 +19,47 @@
   --ifm-line-height-base: 1.65;
   --ifm-navbar-height: 3.75rem;
 
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
 }
 
-/* Dark mode default styling */
-[data-theme='dark'] {
-  --ifm-background-color: #090a0f;
-  --ifm-background-surface-color: #12141c;
-  --ifm-color-content: #f0f2f8;
-  --ifm-color-content-secondary: #8e95ad;
-  --ifm-toc-border-color: #232738;
-  --ifm-hr-border-color: #232738;
-  --ifm-navbar-background-color: #0d0f17;
-  --ifm-footer-background-color: #090a0f;
-  --ifm-card-background-color: #12141c;
-  --ifm-menu-color-active: #38bdf8;
-  --ifm-menu-color-background-active: rgba(37, 99, 235, 0.12);
-
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-
-/* Light mode support */
+/* Light mode (Greige foundation) */
 [data-theme='light'] {
-  --ifm-background-color: #f8fafc;
+  --ifm-background-color: #faf9f6;
   --ifm-background-surface-color: #ffffff;
-  --ifm-color-content: #0f172a;
-  --ifm-color-content-secondary: #475569;
-  --ifm-toc-border-color: #e2e8f0;
-  --ifm-hr-border-color: #e2e8f0;
+  --ifm-color-content: #1c1a16;
+  --ifm-color-content-secondary: #5d594f;
+  --ifm-toc-border-color: #e7e3da;
+  --ifm-hr-border-color: #e7e3da;
   --ifm-navbar-background-color: #ffffff;
-  --ifm-footer-background-color: #0f172a;
+  --ifm-footer-background-color: #161510;
   --ifm-card-background-color: #ffffff;
-  --ifm-menu-color-active: #2563eb;
-  --ifm-menu-color-background-active: rgba(37, 99, 235, 0.08);
+  --ifm-menu-color-active: #506d48;
+  --ifm-menu-color-background-active: rgba(80, 109, 72, 0.10);
+}
+
+/* Dark mode (Drawn dark Greige foundation) */
+[data-theme='dark'] {
+  --ifm-color-primary: #82a077;
+  --ifm-color-primary-dark: #67885d;
+  --ifm-color-primary-darker: #506d48;
+  --ifm-color-primary-darkest: #41573b;
+  --ifm-color-primary-light: #a4ba9a;
+  --ifm-color-primary-lighter: #c8d6c1;
+  --ifm-color-primary-lightest: #e4ebe0;
+
+  --ifm-background-color: #161510;
+  --ifm-background-surface-color: #1d1c17;
+  --ifm-color-content: #f5f4ef;
+  --ifm-color-content-secondary: #8e8b7f;
+  --ifm-toc-border-color: #33312a;
+  --ifm-hr-border-color: #33312a;
+  --ifm-navbar-background-color: #1d1c17;
+  --ifm-footer-background-color: #12110c;
+  --ifm-card-background-color: #1d1c17;
+  --ifm-menu-color-active: #82a077;
+  --ifm-menu-color-background-active: rgba(130, 160, 119, 0.14);
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.06);
 }
 
 /* Navbar polish */
@@ -74,6 +84,10 @@
   margin-left: 0.5rem;
 }
 
+[data-theme='dark'] .navbar-cta-button {
+  color: #161510 !important;
+}
+
 .navbar-cta-button:hover {
   background: var(--ifm-color-primary-dark);
   text-decoration: none;
@@ -88,7 +102,7 @@
 }
 
 .markdown h2 {
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   letter-spacing: -0.02em;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -97,7 +111,7 @@
 }
 
 .markdown h3 {
-  font-size: 1.2rem;
+  font-size: 1.18rem;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
 }
@@ -109,7 +123,7 @@
   height: auto;
   border-radius: 8px;
   border: 1px solid var(--ifm-toc-border-color);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
   margin: 1.5rem 0 2rem 0;
   background-color: var(--ifm-background-surface-color);
 }
@@ -154,7 +168,7 @@
 .hero-banner {
   padding: 4rem 2rem;
   text-align: center;
-  background: linear-gradient(180deg, rgba(37, 99, 235, 0.08) 0%, transparent 100%);
+  background: linear-gradient(180deg, rgba(80, 109, 72, 0.08) 0%, transparent 100%);
   border-bottom: 1px solid var(--ifm-toc-border-color);
 }
 
@@ -206,7 +220,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  background: rgba(37, 99, 235, 0.1);
+  background: rgba(80, 109, 72, 0.12);
 }
 
 .category-card-title {
