@@ -9,7 +9,7 @@ authors:
 
 Temos o prazer de apresentar um conjunto de novidades que tornam o acesso ao Imobiturbo.OS ainda mais seguro, ágil e independente para toda a equipe comercial.
 
-<!-- truncate -->
+{/* truncate */}
 
 ## ✨ Novo
 
