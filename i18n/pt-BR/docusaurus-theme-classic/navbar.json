@@ -1,0 +1,18 @@
+{
+  "logo.alt": {
+    "message": "Imobiturbo Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutoriais e Guias": {
+    "message": "Tutoriais e Guias",
+    "description": "Navbar item with label Tutoriais e Guias"
+  },
+  "item.label.Novidades": {
+    "message": "Novidades",
+    "description": "Navbar item with label Novidades"
+  },
+  "item.label.Acessar o OS ↗": {
+    "message": "Acessar o OS ↗",
+    "description": "Navbar item with label Acessar o OS ↗"
+  }
+}

@@ -26,7 +26,7 @@
   --ifm-font-family-display: 'Futura LT Cond', 'Barlow Condensed', 'Oswald', system-ui, sans-serif;
   --ifm-heading-font-weight: 800;
   --ifm-line-height-base: 1.6;
-  --ifm-navbar-height: 4rem;
+  --ifm-navbar-height: 4.25rem;
 
   --docusaurus-highlighted-code-line-bg: rgba(191, 215, 48, 0.1);
 }
@@ -84,17 +84,26 @@
   margin-right: 2rem;
 }
 
+/* Hide navbar text title next to logo */
 .navbar__title {
-  font-family: var(--ifm-font-family-display);
-  font-weight: 800;
-  font-size: 1.5rem;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF !important;
+  display: none !important;
+}
+
+.navbar__logo {
+  height: 34px;
+}
+
+.navbar__logo img {
+  height: 100%;
+  width: auto;
 }
 
 .navbar__link {
-  font-weight: 600;
+  font-family: var(--ifm-font-family-display);
+  font-weight: 800;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: #B8B8B8 !important;
   transition: color 0.15s ease;
 }
@@ -103,17 +112,52 @@
   color: #BFD730 !important;
 }
 
+/* Navbar Search Input */
+.navbar__search-input {
+  background-color: #141414 !important;
+  border: 1px solid #2A2A2A !important;
+  color: #FFFFFF !important;
+  font-family: var(--ifm-font-family-base) !important;
+  font-size: 0.88rem !important;
+  border-radius: 999px !important;
+  padding: 0.4rem 1rem 0.4rem 2.25rem !important;
+  transition: all 0.2s ease;
+}
+
+.navbar__search-input:focus {
+  border-color: #BFD730 !important;
+  box-shadow: 0 0 0 2px rgba(191, 215, 48, 0.25) !important;
+  outline: none;
+}
+
+/* ALL BUTTONS: Brand Display Typography */
+.hero-btn-primary,
+.hero-btn-secondary,
+.navbar-cta-button,
+.button,
+button.button,
+a.button,
+.pagination-nav__link,
+.category-card-link {
+  font-family: var(--ifm-font-family-display) !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  letter-spacing: -0.01em !important;
+}
+
 .navbar-cta-button {
   background: #BFD730 !important;
   color: #000000 !important;
-  font-family: var(--ifm-font-family-base);
-  font-weight: 800;
-  font-size: 0.85rem;
-  padding: 0.45rem 1.25rem !important;
+  font-size: 1rem !important;
+  line-height: 1 !important;
+  padding: 0.55rem 1.35rem !important;
   border-radius: 999px !important;
   transition: all 0.2s ease;
   margin-left: 0.75rem;
   border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .navbar-cta-button:hover {
@@ -124,7 +168,7 @@
 }
 
 /* Headings with Display Font */
-h1, .hero-banner h1, .navbar__title {
+h1, .hero-banner h1 {
   font-family: var(--ifm-font-family-display);
   letter-spacing: -0.03em;
 }
@@ -178,8 +222,9 @@ h1, .hero-banner h1, .navbar__title {
   border-radius: 999px;
   background: #BFD730;
   color: #000000;
+  font-family: var(--ifm-font-family-display);
   font-weight: 800;
-  font-size: 13px;
+  font-size: 14px;
   margin-right: 10px;
 }
 
@@ -206,6 +251,15 @@ h1, .hero-banner h1, .navbar__title {
 
 .footer__link-item:hover {
   color: #BFD730;
+}
+
+/* Smaller footer copyright text */
+.footer__copyright {
+  font-size: 0.78rem !important;
+  color: #737373 !important;
+  letter-spacing: 0.02em;
+  margin-top: 2rem;
+  opacity: 0.8;
 }
 
 /* Homepage Hero & Cards */
@@ -240,15 +294,16 @@ h1, .hero-banner h1, .navbar__title {
 .hero-cta-group {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.25rem;
   flex-wrap: wrap;
 }
 
 .hero-btn-primary {
   background: #BFD730;
   color: #000000 !important;
-  font-weight: 800;
-  padding: 0.85rem 2rem;
+  font-size: 1.2rem !important;
+  line-height: 1 !important;
+  padding: 0.95rem 2.25rem;
   border-radius: 999px;
   text-decoration: none !important;
   transition: all 0.2s ease;
@@ -267,8 +322,9 @@ h1, .hero-banner h1, .navbar__title {
   background: #141414;
   color: #FFFFFF !important;
   border: 1px solid #2A2A2A;
-  font-weight: 700;
-  padding: 0.85rem 2rem;
+  font-size: 1.2rem !important;
+  line-height: 1 !important;
+  padding: 0.95rem 2.25rem;
   border-radius: 999px;
   text-decoration: none !important;
   transition: all 0.2s ease;
@@ -341,8 +397,7 @@ h1, .hero-banner h1, .navbar__title {
 }
 
 .category-card-link {
-  font-size: 0.88rem;
-  font-weight: 700;
+  font-size: 1.05rem;
   color: #BFD730;
   display: flex;
   align-items: center;

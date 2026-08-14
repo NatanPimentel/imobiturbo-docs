@@ -76,7 +76,6 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Imobiturbo.OS · Ajuda',
       logo: {
         alt: 'Imobiturbo Logo',
         src: 'img/logo.png',

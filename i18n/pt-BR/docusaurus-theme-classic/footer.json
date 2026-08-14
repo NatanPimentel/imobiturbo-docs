@@ -1,0 +1,66 @@
+{
+  "link.title.Primeiros Passos": {
+    "message": "Primeiros Passos",
+    "description": "The title of the footer links column with title=Primeiros Passos in the footer"
+  },
+  "link.title.Módulos Principais": {
+    "message": "Módulos Principais",
+    "description": "The title of the footer links column with title=Módulos Principais in the footer"
+  },
+  "link.title.Plataforma": {
+    "message": "Plataforma",
+    "description": "The title of the footer links column with title=Plataforma in the footer"
+  },
+  "link.item.label.O que é o Imobiturbo.OS": {
+    "message": "O que é o Imobiturbo.OS",
+    "description": "The label of footer link with label=O que é o Imobiturbo.OS linking to /docs/primeiros-passos/o-que-e-o-imobiturbo-os"
+  },
+  "link.item.label.Primeiro Acesso e Login": {
+    "message": "Primeiro Acesso e Login",
+    "description": "The label of footer link with label=Primeiro Acesso e Login linking to /docs/primeiros-passos/primeiro-acesso"
+  },
+  "link.item.label.Conectando o WhatsApp": {
+    "message": "Conectando o WhatsApp",
+    "description": "The label of footer link with label=Conectando o WhatsApp linking to /docs/conexoes/conectar-whatsapp-qrcode"
+  },
+  "link.item.label.Visão Geral da Inbox": {
+    "message": "Visão Geral da Inbox",
+    "description": "The label of footer link with label=Visão Geral da Inbox linking to /docs/inbox/visao-geral-inbox"
+  },
+  "link.item.label.Inbox e Atendimento": {
+    "message": "Inbox e Atendimento",
+    "description": "The label of footer link with label=Inbox e Atendimento linking to /docs/inbox/visao-geral-inbox"
+  },
+  "link.item.label.Funil e Kanban": {
+    "message": "Funil e Kanban",
+    "description": "The label of footer link with label=Funil e Kanban linking to /docs/kanban/entendendo-o-funil"
+  },
+  "link.item.label.Gestão de Contatos": {
+    "message": "Gestão de Contatos",
+    "description": "The label of footer link with label=Gestão de Contatos linking to /docs/contatos/visao-geral-contatos"
+  },
+  "link.item.label.Agentes de IA": {
+    "message": "Agentes de IA",
+    "description": "The label of footer link with label=Agentes de IA linking to /docs/agentes-ia/o-que-sao-agentes-ia"
+  },
+  "link.item.label.Follow-ups e Automações": {
+    "message": "Follow-ups e Automações",
+    "description": "The label of footer link with label=Follow-ups e Automações linking to /docs/follow-ups/visao-geral-automacoes"
+  },
+  "link.item.label.Acessar o Imobiturbo.OS": {
+    "message": "Acessar o Imobiturbo.OS",
+    "description": "The label of footer link with label=Acessar o Imobiturbo.OS linking to https://os.imobiturbo.com.br"
+  },
+  "link.item.label.Novidades e Atualizações": {
+    "message": "Novidades e Atualizações",
+    "description": "The label of footer link with label=Novidades e Atualizações linking to /novidades"
+  },
+  "link.item.label.Instalação do App (PWA)": {
+    "message": "Instalação do App (PWA)",
+    "description": "The label of footer link with label=Instalação do App (PWA) linking to /docs/aplicativo-mobile/como-instalar-o-pwa"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 Imobiturbo.OS. Todos os direitos reservados.",
+    "description": "The footer copyright"
+  }
+}

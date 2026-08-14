@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.🚀 Primeiros Passos": {
+    "message": "🚀 Primeiros Passos",
+    "description": "The label for category '🚀 Primeiros Passos' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.💬 Inbox e Atendimento": {
+    "message": "💬 Inbox e Atendimento",
+    "description": "The label for category '💬 Inbox e Atendimento' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.🔌 Central de Conexões (WhatsApp)": {
+    "message": "🔌 Central de Conexões (WhatsApp)",
+    "description": "The label for category '🔌 Central de Conexões (WhatsApp)' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.📊 CRM e Kanban de Vendas": {
+    "message": "📊 CRM e Kanban de Vendas",
+    "description": "The label for category '📊 CRM e Kanban de Vendas' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.👥 Gestão de Contatos": {
+    "message": "👥 Gestão de Contatos",
+    "description": "The label for category '👥 Gestão de Contatos' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.🤖 Agentes de Inteligência Artificial": {
+    "message": "🤖 Agentes de Inteligência Artificial",
+    "description": "The label for category '🤖 Agentes de Inteligência Artificial' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.⚡ Follow-ups e Automações": {
+    "message": "⚡ Follow-ups e Automações",
+    "description": "The label for category '⚡ Follow-ups e Automações' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.📱 Aplicativo Mobile (PWA)": {
+    "message": "📱 Aplicativo Mobile (PWA)",
+    "description": "The label for category '📱 Aplicativo Mobile (PWA)' in sidebar 'docsSidebar'"
+  }
+}
