@@ -72,6 +72,24 @@
   --docusaurus-highlighted-code-line-bg: rgba(191, 215, 48, 0.08);
 }
 
+/* Global Headings: Display Font & ALWAYS UPPERCASE */
+h1, h2, h3,
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.hero-banner h1,
+article header h1,
+article header h2,
+article header h2 a,
+.title_f1Hy,
+.title_f1Hy a,
+.sidebarItemTitle_pO2u {
+  font-family: var(--ifm-font-family-display) !important;
+  text-transform: uppercase !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em !important;
+}
+
 /* Navbar */
 .navbar {
   border-bottom: 1px solid #2A2A2A;
@@ -167,12 +185,7 @@ a.button,
   transform: translateY(-1px);
 }
 
-/* Headings with Display Font */
-h1, .hero-banner h1 {
-  font-family: var(--ifm-font-family-display);
-  letter-spacing: -0.03em;
-}
-
+/* Docs Article Typography & Layout */
 .markdown h1:first-child {
   font-size: 2.75rem;
   line-height: 1.05;
@@ -181,10 +194,7 @@ h1, .hero-banner h1 {
 }
 
 .markdown h2 {
-  font-family: var(--ifm-font-family-display);
   font-size: 1.85rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
   margin-top: 2.25rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #2A2A2A;
@@ -194,10 +204,92 @@ h1, .hero-banner h1 {
 
 .markdown h3 {
   font-size: 1.25rem;
-  font-weight: 700;
   margin-top: 1.75rem;
   margin-bottom: 0.75rem;
   color: #BFD730;
+}
+
+/* DOCS SIDEBAR: Refined spacing and typography */
+.theme-doc-sidebar-container {
+  border-right: 1px solid #2A2A2A !important;
+}
+
+.theme-doc-sidebar-menu {
+  padding: 1rem 0.5rem 2rem 0.5rem !important;
+}
+
+/* Category header */
+.theme-doc-sidebar-item-category {
+  margin-top: 0.85rem !important;
+  margin-bottom: 0.2rem !important;
+}
+
+.theme-doc-sidebar-item-category > .menu__list-item-collapsible {
+  font-family: var(--ifm-font-family-display) !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  letter-spacing: -0.01em !important;
+  color: #FFFFFF !important;
+  padding: 0.4rem 0.6rem !important;
+  border-radius: 6px !important;
+}
+
+.theme-doc-sidebar-item-category > .menu__list-item-collapsible:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Sub-items in sidebar */
+.menu__list .menu__list {
+  padding-left: 0.65rem !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.65rem !important;
+  border-left: 1px solid #1F1F1F !important;
+  margin-left: 0.5rem !important;
+}
+
+.menu__link {
+  font-family: var(--ifm-font-family-base) !important;
+  font-size: 0.82rem !important;
+  line-height: 1.4 !important;
+  padding: 0.35rem 0.65rem !important;
+  border-radius: 6px !important;
+  color: #B8B8B8 !important;
+  margin-bottom: 3px !important;
+  transition: all 0.15s ease;
+}
+
+.menu__link:hover {
+  color: #FFFFFF !important;
+  background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  color: #000000 !important;
+  background-color: #BFD730 !important;
+  font-weight: 700 !important;
+}
+
+/* Table of Contents (Right Sidebar) */
+.table-of-contents {
+  border-left: 1px solid #2A2A2A !important;
+  padding: 0.5rem 0 0 0.85rem !important;
+}
+
+.table-of-contents__link {
+  font-size: 0.8rem !important;
+  color: #8A8A8A !important;
+  padding: 0.25rem 0 !important;
+  line-height: 1.35 !important;
+}
+
+.table-of-contents__link:hover {
+  color: #BFD730 !important;
+}
+
+.table-of-contents__link--active {
+  color: #BFD730 !important;
+  font-weight: 700 !important;
 }
 
 /* Screenshot image styling with dark border */
@@ -272,11 +364,9 @@ h1, .hero-banner h1 {
 
 .hero-banner h1 {
   font-size: 3.8rem;
-  font-weight: 800;
   line-height: 0.95;
   letter-spacing: -0.04em;
   margin-bottom: 1rem;
-  text-transform: uppercase;
   color: #FFFFFF;
 }
 
@@ -379,11 +469,8 @@ h1, .hero-banner h1 {
 }
 
 .category-card-title {
-  font-family: var(--ifm-font-family-display);
   font-size: 1.5rem;
-  font-weight: 800;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   margin-bottom: 0.5rem;
   color: #FFFFFF;
 }
@@ -402,4 +489,22 @@ h1, .hero-banner h1 {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+/* BLOG / NOVIDADES */
+.sidebarItemTitle_pO2u {
+  font-size: 1.2rem !important;
+  color: #FFFFFF !important;
+  margin-bottom: 1.25rem !important;
+}
+
+.title_f1Hy, .title_f1Hy a {
+  font-size: 2.25rem !important;
+  line-height: 1.05 !important;
+  color: #BFD730 !important;
+  text-decoration: none !important;
+}
+
+.title_f1Hy a:hover {
+  color: #D2E854 !important;
 }
