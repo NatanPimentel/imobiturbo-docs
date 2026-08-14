@@ -90,13 +90,13 @@ export default function Home(): React.JSX.Element {
     >
       <header className="hero-banner">
         <div className="container">
-          <h1>Central de Ajuda Imobiturbo.OS</h1>
+          <h1>Central de Ajuda <span>Imobiturbo.OS</span></h1>
           <p>{siteConfig.tagline}</p>
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '12px', flexWrap: 'wrap' }}>
-            <Link className="button button--primary button--lg" to="/docs/primeiros-passos/o-que-e-o-imobiturbo-os">
+          <div className="hero-cta-group">
+            <Link className="hero-btn-primary" to="/docs/primeiros-passos/o-que-e-o-imobiturbo-os">
               Começar pelo Início 🚀
             </Link>
-            <Link className="button button--secondary button--lg" to="/docs/conexoes/conectar-whatsapp-qrcode">
+            <Link className="hero-btn-secondary" to="/docs/conexoes/conectar-whatsapp-qrcode">
               Conectar WhatsApp 📱
             </Link>
           </div>

@@ -72,14 +72,15 @@ const config: Config = {
     image: 'img/social-card.png',
     colorMode: {
       defaultMode: 'dark',
-      respectPrefersColorScheme: true,
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       title: 'Imobiturbo.OS · Ajuda',
       logo: {
-        alt: 'Imobiturbo.OS Logo',
-        src: 'img/logo.svg',
-        srcDark: 'img/logo.svg',
+        alt: 'Imobiturbo Logo',
+        src: 'img/logo.png',
+        srcDark: 'img/logo.png',
       },
       items: [
         {
