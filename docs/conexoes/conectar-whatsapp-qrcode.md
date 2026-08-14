@@ -1,39 +1,91 @@
 ---
 title: Conectar WhatsApp por QR Code
-description: Passo a passo para conectar seu número de WhatsApp ao Imobiturbo.OS usando o leitor de QR Code do celular.
+description: Passo a passo detalhado para conectar instâncias de WhatsApp ao Imobiturbo.OS via leitura de QR Code.
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Conectar WhatsApp por QR Code
 
-Conectar seu WhatsApp ao Imobiturbo.OS é rápido e funciona exatamente como conectar o WhatsApp Web no computador.
+A sincronização do WhatsApp com o **Imobiturbo.OS** funciona através de uma conexão segura de multi-dispositivos (semelhante ao WhatsApp Web), permitindo que você continue usando o WhatsApp normalmente no seu smartphone enquanto o sistema opera em paralelo.
 
-## Para que serve
+:::info[📌 REQUISITO BÁSICO]
+Para realizar a conexão inicial, você precisa de um computador ou tablet com o Imobiturbo.OS aberto e o smartphone com o WhatsApp que será conectado em mãos.
+:::
 
-Vincula seu número de WhatsApp ao sistema para que as mensagens recebidas e enviadas fiquem sincronizadas com o CRM em tempo real.
+---
 
-## Como fazer
+## Fluxo de Navegação
 
-1. Acesse o menu **Conexões** na barra lateral.
-2. Clique no botão **+ Conectar Novo WhatsApp** (ou em *Reconectar* no canal desejado).
-3. A janela com o **QR Code de Conexão** será exibida na tela.
+Acesse o menu: <kbd>Menu Lateral</kbd> ➔ <kbd>Central de Conexões</kbd> ➔ <kbd>+ Conectar Novo WhatsApp</kbd>
+
+---
+
+## Passo a Passo de Conexão
+
+<Tabs>
+  <TabItem value="ios" label="📱 iPhone (iOS)" default>
+
+1. No computador, abra a **Central de Conexões** no Imobiturbo.OS.
+2. Clique no botão <kbd>+ Conectar Novo WhatsApp</kbd> (ou <kbd>Reconectar</kbd> na instância desejada).
+3. A janela com o **QR Code** será carregada na tela:
 
 ![Modal de Leitura de QR Code](/img/guias/conexoes/02-qrcode-whatsapp.png)
 
-4. No seu smartphone, abra o aplicativo do **WhatsApp**.
-5. Acesse as **Configurações** (no iPhone) ou toque nos **três pontinhos** no topo (no Android).
-6. Selecione a opção **Aparelhos conectados** e toque em **Conectar um aparelho**.
-7. Se o celular pedir, confirme o desbloqueio com biometria ou senha.
-8. Aponte a câmera do celular para o QR Code exibido na tela do computador.
-9. Aguarde alguns segundos até a tela confirmar a sincronização.
+4. No iPhone, abra o aplicativo **WhatsApp**.
+5. Toque em **Configurações** (no canto inferior direito).
+6. Toque em **Aparelhos conectados** ➔ **Conectar um aparelho**.
+7. Desbloqueie com **Face ID** ou **Touch ID**.
+8. Aponte a câmera para o QR Code na tela do computador e aguarde a leitura.
 
-## O que acontece depois
+  </TabItem>
+  <TabItem value="android" label="🤖 Android">
 
-- O status do canal na Central de Conexões mudará para **🟢 CONECTADO**.
-- A bolinha de status na barra superior do sistema ficará verde.
-- Suas conversas recentes serão carregadas na Inbox.
+1. No computador, abra a **Central de Conexões** no Imobiturbo.OS.
+2. Clique no botão <kbd>+ Conectar Novo WhatsApp</kbd> (ou <kbd>Reconectar</kbd> na instância desejada).
+3. A janela com o **QR Code** será carregada na tela:
 
-## Problemas comuns
+![Modal de Leitura de QR Code](/img/guias/conexoes/02-qrcode-whatsapp.png)
 
-- **QR Code expirou**: O QR Code do WhatsApp é atualizado periodicamente por segurança. Se a leitura não acontecer a tempo, clique no botão *Atualizar QR Code* para gerar uma nova imagem.
-- **Não conecta**: Certifique-se de que o seu celular está conectado à internet via Wi-Fi ou 4G/5G durante o processo de sincronização.
-- **Limite de aparelhos no WhatsApp**: O WhatsApp permite até 4 aparelhos conectados simultaneamente. Se você atingiu o limite, desconecte uma sessão antiga em seu celular antes de ler o QR Code.
+4. No Android, abra o aplicativo **WhatsApp**.
+5. Toque no **ícone de 3 pontinhos** (no canto superior direito).
+6. Selecione **Aparelhos conectados** ➔ **Conectar um aparelho**.
+7. Confirme a impressão digital ou código PIN do celular.
+8. Aponte a câmera para o QR Code na tela do computador e aguarde a sincronização.
+
+  </TabItem>
+</Tabs>
+
+:::tip[💡 DICA DE ESTABILIDADE]
+Após a primeira leitura, a sincronização do histórico recente de mensagens leva entre **10 e 30 segundos**. Não feche a página até que a tag verde **🟢 CONECTADO** apareça.
+:::
+
+---
+
+## O que acontece depois da conexão
+
+- **Status Ativo**: O canal exibirá a etiqueta **CONECTADO** com indicador verde.
+- **Sincronização Contínua**: Mensagens recebidas no celular chegam instantaneamente na [Inbox](/docs/inbox/visao-geral-inbox).
+- **IA Operacional**: Se houver um Agente de IA vinculado a este canal, ele começará a responder novos leads automaticamente.
+
+---
+
+## Guia de Resolução de Problemas (Troubleshooting)
+
+| Sintoma | Causa Provável | Ação Recomendada |
+|---|---|---|
+| **QR Code Expirou** | Timeout de segurança do WhatsApp (20s) | Clique em <kbd>Atualizar QR Code</kbd> no modal e leia imediatamente. |
+| **Erro "Limite de Aparelhos"** | O WhatsApp permite até 4 sessões ativas | No celular, vá em *Aparelhos Conectados*, clique em uma sessão antiga e selecione **Desconectar**. |
+| **Instância Desconectada** | Celular ficou muito tempo desligado ou sem sinal | Acesse a Central de Conexões e clique em <kbd>Reconectar</kbd> para gerar novo QR Code. |
+| **Câmera não foca no QR Code** | Brilho do monitor muito alto ou tela com reflexo | Aumente a distância do celular da tela ou reduza ligeiramente o brilho do monitor. |
+
+:::warning[⚠️ ATENÇÃO COM APPS NÃO OFICIAIS]
+O uso de versões modificadas do WhatsApp (ex: WhatsApp GB, WhatsApp Plus) pode causar desconexões repentinas e bloqueios temporários pela Meta. Utilize sempre a versão oficial do WhatsApp ou WhatsApp Business.
+:::
+
+---
+
+## Próximos Passos
+- Conheça a [Visão Geral da Inbox](/docs/inbox/visao-geral-inbox) para gerenciar conversas em tempo real.
+- Saiba como [Pedir Conexão ao Corretor](/docs/conexoes/pedir-conexao-ao-corretor) sem precisar pedir a senha dele.

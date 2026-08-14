@@ -25,10 +25,10 @@
   --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --ifm-font-family-display: 'Futura LT Cond', 'Barlow Condensed', 'Oswald', system-ui, sans-serif;
   --ifm-heading-font-weight: 800;
-  --ifm-line-height-base: 1.6;
+  --ifm-line-height-base: 1.65;
   --ifm-navbar-height: 4.25rem;
 
-  --docusaurus-highlighted-code-line-bg: rgba(191, 215, 48, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(191, 215, 48, 0.12);
 }
 
 /* Light mode fallback (clean monochrome with Lime accent) */
@@ -195,7 +195,7 @@ a.button,
 
 .markdown h2 {
   font-size: 1.85rem;
-  margin-top: 2.25rem;
+  margin-top: 2.5rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #2A2A2A;
   padding-bottom: 0.5rem;
@@ -203,13 +203,230 @@ a.button,
 }
 
 .markdown h3 {
-  font-size: 1.25rem;
-  margin-top: 1.75rem;
+  font-size: 1.3rem;
+  margin-top: 2rem;
   margin-bottom: 0.75rem;
   color: #BFD730;
 }
 
-/* DOCS SIDEBAR: Refined spacing and typography */
+.markdown p {
+  color: #D6D6D6;
+  font-size: 1.02rem;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+.markdown li {
+  color: #D6D6D6;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.4rem;
+}
+
+.markdown strong {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+/* Inline Code Badges */
+code:not(pre code) {
+  background-color: #1A1A1A !important;
+  border: 1px solid #2E2E2E !important;
+  color: #EBF4A8 !important;
+  font-family: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, monospace !important;
+  font-size: 0.88em !important;
+  padding: 0.18em 0.45em !important;
+  border-radius: 5px !important;
+  font-weight: 500;
+}
+
+/* KBD hardware badges for clicks and shortcuts */
+kbd {
+  background-color: #1A1A1A;
+  border: 1px solid #333333;
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  color: #FFFFFF;
+  display: inline-block;
+  font-family: var(--ifm-font-family-base);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.3rem 0.55rem;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   DOCUSAURUS ADMONITIONS / CALLOUTS (High-Performance Theme)
+   ============================================================ */
+.theme-admonition {
+  border-radius: 12px !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-left-width: 4px !important;
+  margin: 1.75rem 0 !important;
+  padding: 1.25rem 1.5rem !important;
+  background-color: #0E0E0E !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+.theme-admonition .admonitionHeading_Gvgb {
+  font-family: var(--ifm-font-family-display) !important;
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.01em !important;
+  text-transform: uppercase !important;
+  margin-bottom: 0.6rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
+
+.theme-admonition .admonitionContent_S0QG {
+  font-size: 0.96rem !important;
+  line-height: 1.55 !important;
+  color: #D6D6D6 !important;
+}
+
+.theme-admonition .admonitionContent_S0QG p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Tip / Dica (Pantone Lime Punch) */
+.theme-admonition-tip {
+  border-color: #2A2A2A !important;
+  border-left-color: #BFD730 !important;
+  background: linear-gradient(90deg, rgba(191, 215, 48, 0.08) 0%, rgba(14, 14, 14, 0.95) 40%) !important;
+}
+.theme-admonition-tip .admonitionHeading_Gvgb {
+  color: #BFD730 !important;
+}
+
+/* Info (Electric Blue) */
+.theme-admonition-info, .theme-admonition-note {
+  border-color: #2A2A2A !important;
+  border-left-color: #6FA8FF !important;
+  background: linear-gradient(90deg, rgba(111, 168, 255, 0.08) 0%, rgba(14, 14, 14, 0.95) 40%) !important;
+}
+.theme-admonition-info .admonitionHeading_Gvgb, .theme-admonition-note .admonitionHeading_Gvgb {
+  color: #6FA8FF !important;
+}
+
+/* Warning / Alerta (Vibrant Amber) */
+.theme-admonition-warning, .theme-admonition-caution {
+  border-color: #2A2A2A !important;
+  border-left-color: #FFB020 !important;
+  background: linear-gradient(90deg, rgba(255, 176, 32, 0.08) 0%, rgba(14, 14, 14, 0.95) 40%) !important;
+}
+.theme-admonition-warning .admonitionHeading_Gvgb, .theme-admonition-caution .admonitionHeading_Gvgb {
+  color: #FFB020 !important;
+}
+
+/* Danger / Crítico (Vivid Red) */
+.theme-admonition-danger {
+  border-color: #2A2A2A !important;
+  border-left-color: #FF5A4E !important;
+  background: linear-gradient(90deg, rgba(255, 90, 78, 0.08) 0%, rgba(14, 14, 14, 0.95) 40%) !important;
+}
+.theme-admonition-danger .admonitionHeading_Gvgb {
+  color: #FF5A4E !important;
+}
+
+/* ============================================================
+   RICH TABLES (Dark SaaS Style)
+   ============================================================ */
+.markdown table {
+  width: 100%;
+  margin: 1.75rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #2A2A2A;
+  background-color: #0A0A0A;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.markdown table thead tr {
+  background-color: #141414;
+}
+
+.markdown table th {
+  font-family: var(--ifm-font-family-display);
+  font-size: 1.05rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  padding: 0.9rem 1.25rem;
+  border-bottom: 2px solid #2A2A2A;
+  border-right: 1px solid #1F1F1F;
+  text-align: left;
+}
+
+.markdown table th:last-child {
+  border-right: none;
+}
+
+.markdown table td {
+  padding: 0.85rem 1.25rem;
+  font-size: 0.93rem;
+  line-height: 1.5;
+  color: #D6D6D6;
+  border-bottom: 1px solid #1A1A1A;
+  border-right: 1px solid #1A1A1A;
+}
+
+.markdown table td:last-child {
+  border-right: none;
+}
+
+.markdown table tbody tr:nth-child(even) {
+  background-color: #0F0F0F;
+}
+
+.markdown table tbody tr:hover {
+  background-color: #171717;
+}
+
+/* ============================================================
+   TABS (Platform / Alternative Switchers)
+   ============================================================ */
+.tabs {
+  border-bottom: 1px solid #2A2A2A !important;
+  margin-bottom: 1.25rem !important;
+  gap: 0.5rem !important;
+}
+
+.tabs__item {
+  font-family: var(--ifm-font-family-display) !important;
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  letter-spacing: -0.01em !important;
+  padding: 0.55rem 1.25rem !important;
+  border-radius: 8px 8px 0 0 !important;
+  color: #B8B8B8 !important;
+  border: 1px solid transparent !important;
+  border-bottom: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.tabs__item:hover {
+  color: #FFFFFF !important;
+  background-color: #141414 !important;
+}
+
+.tabs__item--active {
+  color: #000000 !important;
+  background-color: #BFD730 !important;
+  border-color: #BFD730 !important;
+}
+
+/* ============================================================
+   DOCS SIDEBAR & TOC
+   ============================================================ */
 .theme-doc-sidebar-container {
   border-right: 1px solid #2A2A2A !important;
 }
@@ -218,7 +435,6 @@ a.button,
   padding: 1rem 0.5rem 2rem 0.5rem !important;
 }
 
-/* Category header */
 .theme-doc-sidebar-item-category {
   margin-top: 0.85rem !important;
   margin-bottom: 0.2rem !important;
@@ -239,7 +455,6 @@ a.button,
   background-color: rgba(255, 255, 255, 0.05) !important;
 }
 
-/* Sub-items in sidebar */
 .menu__list .menu__list {
   padding-left: 0.65rem !important;
   margin-top: 0.25rem !important;
@@ -270,7 +485,6 @@ a.button,
   font-weight: 700 !important;
 }
 
-/* Table of Contents (Right Sidebar) */
 .table-of-contents {
   border-left: 1px solid #2A2A2A !important;
   padding: 0.5rem 0 0 0.85rem !important;
@@ -300,7 +514,7 @@ a.button,
   border-radius: 12px;
   border: 1px solid #2A2A2A;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
-  margin: 1.5rem 0 2rem 0;
+  margin: 1.75rem 0 2.25rem 0;
   background-color: #0A0A0A;
 }
 
@@ -345,7 +559,6 @@ a.button,
   color: #BFD730;
 }
 
-/* Smaller footer copyright text */
 .footer__copyright {
   font-size: 0.78rem !important;
   color: #737373 !important;

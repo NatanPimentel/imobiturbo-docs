@@ -1,36 +1,67 @@
 ---
 title: O que é o Imobiturbo.OS
-description: Conheça o Imobiturbo.OS, a plataforma completa de atendimento, CRM e IA para imobiliárias e corretores.
+description: Conheça o Imobiturbo.OS, o sistema operacional comercial definitivo para imobiliárias e corretores de alta performance.
 ---
 
 # O que é o Imobiturbo.OS
 
-O **Imobiturbo.OS** é a plataforma de gestão comercial e atendimento desenvolvida especialmente para imobiliárias e corretores autônomos. Ele centraliza em um só lugar as conversas do WhatsApp, a qualificação inteligente de leads com Inteligência Artificial e o funil de vendas em Kanban.
+O **Imobiturbo.OS** é a plataforma de inteligência comercial e atendimento omnicanal desenvolvida exclusivamente para imobiliárias, corretores autônomos e incorporadoras. Ele unifica em um único painel de alta velocidade as conversas de WhatsApp de toda a equipe, a triagem automatizada com Inteligência Artificial e a gestão de oportunidades em Kanban.
+
+:::tip[⚡ FOCO EM ALTA PERFORMANCE]
+O Imobiturbo.OS foi desenhado para eliminar 100% dos gargalos no primeiro atendimento. O tempo médio de resposta cai de **horas para menos de 10 segundos**, garantindo que nenhum lead esfrie ou procure a concorrência.
+:::
+
+---
 
 ## Para que serve
 
-O sistema foi feito para eliminar a perda de negócios por demora no primeiro atendimento. Com ele, você conecta os números de WhatsApp da sua equipe, qualifica compradores e locatários automaticamente com agentes de IA e organiza cada negócio em etapas claras do processo de vendas.
+O sistema resolve os 3 maiores problemas da operação imobiliária moderna:
+1. **Lentidão no primeiro contato**: Resposta imediata 24/7 com IA humanizada.
+2. **Falta de visibilidade da diretoria**: Todas as conversas e status de negociação em tempo real.
+3. **Esquecimento de follow-ups**: Automações que reengajam clientes após visitas ou propostas enviadas.
 
-## Principais recursos
+---
 
-1. **Inbox Centralizada**: Todas as conversas de WhatsApp da sua imobiliária em um único painel em tempo real, com transcrição automática de áudios e envio de mensagens rápidas.
-2. **Funil Comercial (Kanban)**: Organize seus clientes por colunas de interesse, visitas agendadas, propostas em análise e contratos fechados.
-3. **Agentes de Inteligência Artificial**: Assistentes virtuais configurados com os dados dos seus imóveis para responder dúvidas em segundos, 24 horas por dia.
-4. **Follow-ups e Automações**: Lembretes automáticos de visita, mensagens de boas-vindas e distribuição de leads entre corretores.
-5. **Acesso no Celular**: Instale o aplicativo diretamente no smartphone para acompanhar seus clientes onde estiver.
+## Comparativo de Eficiência Operacional
+
+| Desafio | Operação Convencional | Com Imobiturbo.OS |
+|---|---|---|
+| **Tempo de 1ª Resposta** | 45 min a 4 horas | **Menos de 10 segundos** (IA 24/7) |
+| **Visibilidade de Conversas** | Isoladas no celular de cada corretor | **Painel único centralizado** e auditável |
+| **Áudios de Clientes** | Necessidade de ouvir na íntegra | **Transcrição automática em texto** |
+| **Passagem de Bastão** | Mensagens soltas e anotações manuais | **Transbordo inteligente** com resumo do lead |
+| **Follow-up de Visitas** | Manual (frequentemente esquecido) | **Gatilhos automáticos programados** |
+
+---
+
+## Principais Módulos da Plataforma
+
+1. **Inbox Centralizada Multi-Canal**: Visualize e responda conversas de todos os números da imobiliária em uma interface fluida de 3 colunas, com suporte a transcrição de áudio por IA e respostas rápidas.
+2. **Funil Comercial (Kanban)**: Arraste oportunidades entre as etapas do funil (*Novo Lead*, *Triagem*, *Visita Agendada*, *Proposta*, *Fechamento*).
+3. **Agentes de Inteligência Artificial**: Assistentes virtuais treinados com o catálogo e regras da sua imobiliária para qualificar e agendar visitas de forma autônoma.
+4. **Central de Conexões**: Conecte números individuais para cada corretor ou números corporativos via leitura de QR Code.
+5. **Automações e Follow-ups**: Dispare lembretes de visitas e mensagens de reengajamento baseadas no tempo sem resposta.
 
 ![Visão Geral do Imobiturbo.OS](/img/guias/primeiros-passos/03-interface-visao-geral.png)
+
+:::info[🔒 SEGURANÇA E ISOLAMENTO]
+Cada corretor pode ter acesso restrito apenas aos seus próprios leads e conversas, enquanto gestores e diretores possuem visão global e relatórios de desempenho de toda a equipe.
+:::
+
+---
 
 ## O que acontece depois
 
 Depois que sua imobiliária começa a usar o Imobiturbo.OS:
-- Todo lead que envia mensagem no WhatsApp é respondido imediatamente.
-- Os corretores recebem leads já qualificados e com horário de visita pré-agendado.
-- Nenhum cliente fica esquecido sem retorno.
+- **100% dos leads recebem atendimento instantâneo**, mesmo nos fins de semana e madrugadas.
+- **Os corretores recebem leads pré-qualificados**, com interesse de bairro, metragem e orçamento já mapeados.
+- **O histórico completo do cliente fica salvo**, facilitando substituições de corretores ou consultas de gerência.
+
+---
 
 ## Próximos passos
 
-Para começar a usar a plataforma no seu dia a dia:
-1. Veja como fazer seu [Primeiro Acesso](/docs/primeiros-passos/primeiro-acesso).
+Para colocar sua operação para rodar em poucos minutos:
+1. Veja como fazer seu [Primeiro Acesso e Login sem Senha](/docs/primeiros-passos/primeiro-acesso).
 2. Conecte seu [WhatsApp por QR Code](/docs/conexoes/conectar-whatsapp-qrcode).
-3. Conheça a [Inbox de Atendimento](/docs/inbox/visao-geral-inbox).
+3. Domine a [Inbox de Atendimento](/docs/inbox/visao-geral-inbox).
