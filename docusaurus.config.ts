@@ -39,6 +39,7 @@ const config: Config = {
         blogRouteBasePath: '/novidades',
       },
     ],
+    'plugin-image-zoom',
   ],
 
   presets: [
@@ -137,6 +138,17 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      background: {
+        light: 'rgba(10, 10, 10, 0.92)',
+        dark: 'rgba(10, 10, 10, 0.95)',
+      },
+      config: {
+        margin: 36,
+        scrollOffset: 40,
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
