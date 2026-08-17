@@ -35,6 +35,8 @@ O **Roteador** é o "porteiro inteligente" do WhatsApp da sua imobiliária: ele 
 
 ![Criação de roteador](/img/guias/agentes-ia/08-roteadores.png)
 
+![Agentes disponíveis para roteamento](/img/guias/agentes-ia/01-lista-agentes-ia-destaque.png)
+
 ### Parte 2 — Definir as rotas (intenção → agente)
 
 Para cada assunto que você quer separar, adicione uma rota:

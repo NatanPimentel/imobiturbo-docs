@@ -27,6 +27,8 @@ A **Base de Conhecimento** é o material que seus agentes de IA consultam para r
 
 ![Bases de Conhecimento da conta](/img/guias/agentes-ia/07-bases-de-conhecimento.png)
 
+![Lista de agentes antes de abrir a base](/img/guias/agentes-ia/01-lista-agentes-ia-destaque.png)
+
 ### Parte 2 — Editar o conteúdo de uma base
 
 1. Clique na base que quiser revisar.

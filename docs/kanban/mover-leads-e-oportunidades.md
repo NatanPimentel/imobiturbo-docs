@@ -20,6 +20,8 @@ Mantém o funil de vendas atualizado em tempo real conforme o lead avança na ne
 
 ![Movendo cartão de lead entre etapas](/img/guias/kanban/02-mover-lead-drag.png)
 
+![Detalhes do card antes de mover o lead](/img/guias/kanban/03-detalhes-card-lead.png)
+
 5. Solte o cartão sobre a coluna desejada.
 
 ## O que acontece depois

@@ -37,6 +37,8 @@ A tela **Evolução da IA** responde a pergunta do dono do negócio: **"o que me
 
 ![Evolução da IA — aprendizado e resultados](/img/guias/agentes-ia/09-evolucao-da-ia.png)
 
+![Histórico de interações do agente](/img/guias/agentes-ia/04-historico-interacoes-ia.png)
+
 ## Como saber que deu certo
 
 - Você consegue dizer, olhando a tela: *"o agente fechou X casos, perdeu Y e passou Z conversas para o time neste mês"*.

@@ -19,6 +19,8 @@ Saber identificar e restabelecer rapidamente o status de conexão evita que mens
 
 ![Gerenciar Sessões e Reconectar](/img/guias/conexoes/03-status-reconectar.png)
 
+![Lista de conexões e status](/img/guias/conexoes/01-lista-conexoes-whatsapp.png)
+
 ## Como reconectar
 
 1. Acesse o menu **Conexões**.

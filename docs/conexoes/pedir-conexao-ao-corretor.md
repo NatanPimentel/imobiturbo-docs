@@ -19,6 +19,8 @@ Permite que corretores autônomos ou equipes externas leiam o QR Code diretament
 
 ![Modal de Link de Conexão para o Corretor](/img/guias/conexoes/04-link-conexao-corretor.png)
 
+![Conexões disponíveis para a equipe](/img/guias/conexoes/01-lista-conexoes-whatsapp.png)
+
 4. Clique em **Copiar Link**.
 5. Envie o link gerado para o corretor responsável via WhatsApp ou e-mail.
 6. O corretor abrirá o link no navegador e verá a tela de leitura de QR Code simplificada.

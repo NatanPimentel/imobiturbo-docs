@@ -7,6 +7,10 @@ description: Passo a passo para criar um fluxo automático de follow-up no Imobi
 
 Criar um follow-up automático no Imobiturbo.OS é montar um **fluxo visual**: o que dispara, quanto tempo esperar, em qual condição seguir, e **o que fazer** ao final.
 
+![Editor visual de criação de um fluxo de follow-up](/img/guias/follow-ups/02-criar-regra-automacao.png)
+
+![Lista de fluxos antes de abrir o editor](/img/guias/follow-ups/01-lista-regras-followup-destaque.png)
+
 ## Antes de começar
 
 - Você é **gerente ou administrador** no Imobiturbo.OS.

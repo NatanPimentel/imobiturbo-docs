@@ -28,6 +28,8 @@ O **Radar** é a tela que mostra as **demandas que esfriaram** — conversas abe
 
 ![Radar de risco — cabeçalho com contadores](/img/guias/radar/01-radar-de-risco.png)
 
+![Detalhes do lead para investigar o risco](/img/guias/inbox/04-painel-lateral-dados-lead.png)
+
 > Os itens da lista foram ocultados nesta imagem de exemplo (a tela real mostra as conversas da sua operação).
 
 3. Na lista, cada item traz: o **canal/situação**, o **cliente**, há quanto tempo está parado e **quem atende** (o corretor responsável).

@@ -7,6 +7,10 @@ description: Como ativar, desativar, testar e acompanhar os fluxos de follow-up 
 
 Depois que um fluxo de follow-up é criado, três ações completam o ciclo: **publicar** (ativar), **desativar** quando não quiser mais e **acompanhar** a fila de retornos.
 
+![Histórico de disparos dos fluxos de follow-up](/img/guias/follow-ups/03-logs-disparos-automaticos.png)
+
+![Visão dos fluxos de follow-up](/img/guias/follow-ups/04-fluxos-followup.png)
+
 ## Publicar um fluxo
 
 1. No menu lateral, abra **Follow-ups** → aba **Fluxos**.

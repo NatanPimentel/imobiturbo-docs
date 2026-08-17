@@ -28,6 +28,8 @@ As **Skills** são como "manuais de bolso" que o agente de IA consulta **só qua
 
 ![Skills da IA instaladas e catálogo](/img/guias/agentes-ia/05-skills-da-ia.png)
 
+![Agentes que usam as skills](/img/guias/agentes-ia/01-lista-agentes-ia-destaque.png)
+
 ### Criar ou editar uma skill
 
 1. Em **Skills instaladas**, clique em **Abrir e editar** na skill que quiser ajustar.

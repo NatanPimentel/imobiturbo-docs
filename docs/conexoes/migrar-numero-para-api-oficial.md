@@ -9,6 +9,10 @@ Essa é uma das dúvidas mais comuns: *"quero usar meu número de WhatsApp que j
 
 **Resposta curta:** dá para migrar. Quando o número é colocado na **API Oficial (Cloud API da Meta)**, ele **deixa de funcionar no WhatsApp do celular** e passa a funcionar 100% pelo Imobiturbo.OS. Este guia mostra o caminho inteiro, sem quebrar nada por engano.
 
+![Tela da API Oficial da Meta na Central de Conexões](/img/guias/conexoes/05-aba-api-oficial-meta.png)
+
+![Preparação do app Meta para a API Oficial](/img/guias/conexoes/07-meta-criar-app.png)
+
 :::warning[⚠️ Importante]
 A migração **não é reversível no dia a dia**: depois de registrar o número na API Oficial, o WhatsApp do celular **não atende mais** aquele número (nem WhatsApp comum, nem WhatsApp Business App). O atendimento passa a ser pelo Imobiturbo.OS. Planeje o aviso à equipe antes.
 :::

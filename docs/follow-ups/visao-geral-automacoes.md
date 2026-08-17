@@ -22,6 +22,8 @@ Automatiza os cuidados de rotina que evitam perder venda:
 
 ![Fluxos de follow-up](/img/guias/follow-ups/04-fluxos-followup.png)
 
+![Lista de fluxos de follow-up](/img/guias/follow-ups/01-lista-regras-followup-destaque.png)
+
 ## O que cada fluxo pode fazer
 
 - **Gatilho**: o evento que inicia o fluxo (ex.: *mensagem recebida*, *cliente em silêncio*, *mudança de etapa*).

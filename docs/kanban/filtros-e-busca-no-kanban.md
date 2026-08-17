@@ -18,6 +18,8 @@ Permite focar nas oportunidades prioritárias, visualizar o funil de um corretor
 
 ![Barra de Filtros do Kanban](/img/guias/kanban/03-filtros-kanban.png)
 
+![Busca e filtros do funil](/img/guias/kanban/04-filtros-busca-funil.png)
+
 3. Escolha os critérios desejados:
    - **Busca por texto**: Digite o nome, telefone ou e-mail do cliente.
    - **Filtrar por Responsável**: Selecione um corretor específico ou visualize todos da equipe.

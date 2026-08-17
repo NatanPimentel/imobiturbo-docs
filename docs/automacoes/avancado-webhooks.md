@@ -7,6 +7,10 @@ description: Como o Imobiturbo.OS recebe dados de outros sistemas e avisa outros
 
 Se a sua operação usa **outros sistemas** (planilhas online, plataformas de anúncio, automações de marketing, sites), o Webhooks é a "ponte" entre eles e o Imobiturbo.OS.
 
+![Aba Automações da área de Webhooks](/img/guias/webhooks/01-automacoes-regras.png)
+
+![Histórico de atividade para conferir os disparos](/img/guias/follow-ups/03-logs-disparos-automaticos.png)
+
 :::info[❓ O que é um webhook?]
 Um **webhook** é uma forma de dois sistemas se avisarem sozinhos: quando algo acontece em um, ele "bate na porta" do outro com a informação. Ex.: quando um lead entra no Imobiturbo.OS, o sistema pode avisar o seu site ou a sua planilha automaticamente.
 :::

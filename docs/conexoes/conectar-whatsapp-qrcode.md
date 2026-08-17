@@ -33,6 +33,8 @@ Acesse o menu: <kbd>Menu Lateral</kbd> ➔ <kbd>Central de Conexões</kbd> ➔ <
 
 ![Modal de Leitura de QR Code](/img/guias/conexoes/02-qrcode-whatsapp.png)
 
+![Central de Conexões antes de abrir o QR Code](/img/guias/conexoes/01-lista-conexoes-whatsapp.png)
+
 4. No iPhone, abra o aplicativo **WhatsApp**.
 5. Toque em **Configurações** (no canto inferior direito).
 6. Toque em **Aparelhos conectados** ➔ **Conectar um aparelho**.

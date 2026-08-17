@@ -19,6 +19,8 @@ Permite registrar clientes que visitaram o plantão de vendas presencialmente, c
 
 ![Modal de Criação de Contato](/img/guias/contatos/02-modal-novo-contato.png)
 
+![Lista de contatos](/img/guias/contatos/01-lista-contatos.png)
+
 4. Preencha os campos:
    - **Nome Completo**: Nome do cliente.
    - **WhatsApp**: Número com DDD (ex: `11999998888`).

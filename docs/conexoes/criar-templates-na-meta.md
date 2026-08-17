@@ -59,6 +59,8 @@ No WhatsApp oficial, você só pode conversar livremente com um cliente **dentro
 
 ![Templates da Meta no Imobiturbo.OS](/img/guias/conexoes/09-templates-da-meta.png)
 
+![Aba API Oficial na Central de Conexões](/img/guias/conexoes/05-aba-api-oficial-meta.png)
+
 3. **Só templates APROVADOS podem ser enviados** — os demais ficam como informação.
 4. Formas de usar:
    - **Automação**: na [regra de automação](/docs/automacoes/criar-regra-quando-se-entao), a ação *Enviar template pela API Oficial* dispara o template aprovado;

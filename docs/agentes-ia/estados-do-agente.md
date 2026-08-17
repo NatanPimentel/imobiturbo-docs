@@ -17,6 +17,8 @@ Na Inbox e no gerenciador de agentes, você encontrará 3 estados principais:
 
 ![Estados de Operação do Agente de IA](/img/guias/agentes-ia/03-estados-agente.png)
 
+![Lista de agentes e status](/img/guias/agentes-ia/01-lista-agentes-ia-destaque.png)
+
 ### 1. 🟢 ATIVO (ACTIVE)
 - **O que significa**: O agente de IA está monitorando a conversa e responderá automaticamente às mensagens do cliente.
 - **Quando ocorre**: Leads novos entrando no funil ou conversas em triagem automática.

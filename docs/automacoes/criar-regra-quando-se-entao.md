@@ -7,6 +7,10 @@ description: Passo a passo para criar regras de automação completas no Imobitu
 
 Este tutorial é o **passo a passo genérico** para criar qualquer regra de automação — o caso com frase de anúncio tem o [tutorial específico aqui](/docs/automacoes/automacao-frase-do-anuncio).
 
+![Editor de criação de regra QUANDO, SE e ENTÃO](/img/guias/follow-ups/02-criacao-regra-quando-se-entao.png)
+
+![Fluxo de follow-up como exemplo de automação](/img/guias/follow-ups/02-criar-regra-automacao.png)
+
 ## Antes de começar
 
 - Permissão de **automações/webhooks** (gerente/administrador).

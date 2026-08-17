@@ -20,6 +20,8 @@ Remove o cartão da visão ativa do funil sem apagar o histórico de mensagens e
 
 ![Modal de Descarte de Oportunidade](/img/guias/kanban/04-descartar-lead-modal.png)
 
+![Detalhes do card do lead](/img/guias/kanban/03-detalhes-card-lead.png)
+
 5. Selecione o motivo correspondente (ex: *Sem orçamento*, *Comprou com outra imobiliária*, *Contato inválido*, *Desistiu da compra*).
 6. (Opcional) Adicione uma observação explicativa.
 7. Clique em **Confirmar Descarte**.

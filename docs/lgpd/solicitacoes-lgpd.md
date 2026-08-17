@@ -29,6 +29,8 @@ A área **LGPD** do Imobiturbo.OS centraliza as **solicitações de titulares** 
 
 ![Solicitações LGPD](/img/guias/lgpd/01-solicitacoes-lgpd.png)
 
+![Contatos que podem originar uma solicitação de dados](/img/guias/contatos/01-lista-contatos.png)
+
 > As linhas da lista foram ocultadas nesta imagem de exemplo (a tela real mostra as solicitações da sua conta).
 
 ### Parte 2 — Revisar uma solicitação

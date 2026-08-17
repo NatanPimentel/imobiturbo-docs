@@ -17,6 +17,8 @@ Ao acessar o menu **Contatos** na barra lateral, você tem acesso à lista compl
 
 ![Lista de Contatos](/img/guias/contatos/01-lista-contatos.png)
 
+![Tags e segmentação de contatos](/img/guias/contatos/03-tags-contatos.png)
+
 A tabela exibe:
 - **Nome e Avatar**: Identificação do cliente.
 - **WhatsApp / Telefone**: Número formatado para contato direto.

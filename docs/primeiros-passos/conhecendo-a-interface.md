@@ -21,6 +21,8 @@ A interface é dividida em três regiões principais:
 
 ![Visão Geral da Interface](/img/guias/primeiros-passos/03-interface-visao-geral.png)
 
+![Menu principal e navegação lateral](/img/guias/primeiros-passos/04-menu-navegacao.png)
+
 ## Tema Escuro e Claro
 
 O Imobiturbo.OS adapta seu visual automaticamente de acordo com as preferências do seu computador ou celular, garantindo conforto visual tanto durante o dia quanto em atendimentos à noite.

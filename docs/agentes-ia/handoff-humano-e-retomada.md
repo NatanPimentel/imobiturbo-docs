@@ -20,6 +20,8 @@ O transbordo acontece automaticamente quando o lead:
 
 ![Painel de Handoff e Retomada](/img/guias/agentes-ia/04-handoff-humano.png)
 
+![Transbordo humano na conversa](/img/guias/agentes-ia/03-transbordo-humano.png)
+
 ## Como o corretor assume a conversa
 
 1. Ao identificar uma notificação de transbordo ou navegar na Inbox na aba **Pausados / Humano**:

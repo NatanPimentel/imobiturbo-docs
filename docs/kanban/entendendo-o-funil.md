@@ -23,6 +23,8 @@ O quadro é dividido em colunas que representam as etapas da jornada do cliente:
 
 ![Visão Geral do Quadro Kanban](/img/guias/kanban/01-quadro-kanban.png)
 
+![Lista de pipelines antes de abrir o quadro](/img/guias/kanban/01-visao-geral-funil-colunas.png)
+
 ## Informações do Card de Oportunidade
 
 Em cada cartão do funil, você visualiza de forma resumida:

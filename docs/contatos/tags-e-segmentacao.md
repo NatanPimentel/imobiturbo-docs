@@ -20,6 +20,8 @@ Permite criar listas segmentadas de clientes para envio de oportunidades direcio
 
 ![Gerenciador de Tags de Contatos](/img/guias/contatos/03-tags-contatos.png)
 
+![Lista de contatos para aplicar filtros](/img/guias/contatos/01-lista-contatos.png)
+
 ## Como adicionar tags a um contato
 
 1. Abra a conversa do cliente na **Inbox** ou clique no cliente em **Contatos**.

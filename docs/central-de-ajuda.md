@@ -11,6 +11,10 @@ Bem-vindo(a) à documentação oficial do **Imobiturbo.OS** — o sistema que re
 
 Aqui você encontra **tutoriais passo a passo com imagens reais**, escritos para quem quer usar o produto — sem jargão técnico. Escolha seu ponto de partida:
 
+![Visão geral da interface do Imobiturbo.OS](/img/guias/primeiros-passos/03-interface-visao-geral.png)
+
+![Menu principal para escolher uma área do sistema](/img/guias/primeiros-passos/04-menu-navegacao.png)
+
 ## Por onde começar
 
 - 🚀 **Primeira vez no sistema?** Veja [O que é o Imobiturbo.OS](/docs/primeiros-passos/o-que-e-o-imobiturbo-os) e [Primeiro acesso e login](/docs/primeiros-passos/primeiro-acesso).

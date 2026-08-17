@@ -44,6 +44,8 @@ O sistema resolve os 3 maiores problemas da operação imobiliária moderna:
 
 ![Visão Geral do Imobiturbo.OS](/img/guias/primeiros-passos/03-interface-visao-geral.png)
 
+![Menu e áreas principais do sistema](/img/guias/primeiros-passos/02-visao-geral-menu-lateral.png)
+
 :::info[🔒 SEGURANÇA E ISOLAMENTO]
 Cada corretor pode ter acesso restrito apenas aos seus próprios leads e conversas, enquanto gestores e diretores possuem visão global e relatórios de desempenho de toda a equipe.
 :::

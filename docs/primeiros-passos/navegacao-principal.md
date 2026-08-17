@@ -15,6 +15,8 @@ Permite que você alterne instantaneamente entre atender clientes, acompanhar ne
 
 ![Menu de Navegação](/img/guias/primeiros-passos/04-menu-navegacao.png)
 
+![Visão geral do menu lateral](/img/guias/primeiros-passos/02-visao-geral-menu-lateral.png)
+
 1. **Inbox (Atendimento)**: Central unificada de conversas em tempo real com clientes do WhatsApp.
 2. **Radar**: Conversas que esfriaram e precisam de ação (leads em risco).
 3. **Conexões**: Números de WhatsApp (QR e API Oficial da Meta) e Formulários de anúncios.

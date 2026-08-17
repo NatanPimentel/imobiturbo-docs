@@ -29,6 +29,8 @@ Cada regra segue o padrão **QUANDO / SE / ENTÃO**:
 
 ![Regras de Automação (aba Automações)](/img/guias/webhooks/01-automacoes-regras.png)
 
+![Fluxos de follow-up relacionados](/img/guias/follow-ups/01-lista-regras-followup.png)
+
 ## O que cada gatilho cobre
 
 | Gatilho (QUANDO) | Exemplo de uso |

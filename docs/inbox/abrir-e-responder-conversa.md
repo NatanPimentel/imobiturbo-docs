@@ -19,6 +19,8 @@ Permite que você responda dúvidas, envie fotos de imóveis, compartilhe locali
 
 ![Responder Conversa na Inbox](/img/guias/inbox/02-responder-mensagem.png)
 
+![Visão geral da Inbox em três colunas](/img/guias/inbox/01-inbox-3-colunas.png)
+
 4. Digite o texto desejado e pressione `Enter` ou clique no botão **Enviar**.
 5. Para enviar arquivos, plantas ou fotos de imóveis, clique no ícone de clipe 📎 e selecione o documento em seu computador.
 6. Para usar uma mensagem padronizada, clique no ícone de raio ⚡ ou digite `/` para selecionar um dos seus **Templates Rápidos**.

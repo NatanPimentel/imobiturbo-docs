@@ -27,6 +27,8 @@ A tela **Desempenho** mostra, em uma página, **o que está aberto no funil** e 
 
 ![Desempenho — funil por etapa](/img/guias/desempenho/01-desempenho-funil.png)
 
+![Atendimento, rodízio e SLA da equipe](/img/guias/equipe/02-atendimento-sla.png)
+
 > As linhas da tabela foram ocultadas nesta imagem de exemplo (a tela real mostra os atendentes da sua conta).
 
 ## O que observar

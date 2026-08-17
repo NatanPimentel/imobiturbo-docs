@@ -7,6 +7,10 @@ description: Como configurar, no Imobiturbo.OS, uma automação que responde soz
 
 Muitos anúncios de WhatsApp funcionam assim: o cliente **clica no anúncio, o WhatsApp abre com uma mensagem pronta** (a "frase") e ele só aperta enviar. Este tutorial ensina o Imobiturbo.OS a **reconhecer essa frase e responder automaticamente** — sem ninguém na frente do computador.
 
+![Lista de regras de automação no Imobiturbo.OS](/img/guias/follow-ups/01-lista-regras-followup-destaque.png)
+
+![Editor da regra que responde à frase do anúncio](/img/guias/follow-ups/02-criacao-regra-quando-se-entao.png)
+
 :::info[❓ Qual é a frase?]
 É o texto que aparece pronto no campo de mensagem quando o cliente toca no anúncio — ex.: *"Olá! Posso saber mais informações sobre isto?"*. Quando a pessoa envia, essa frase chega como a **primeira mensagem** do WhatsApp. A automação usa exatamente esse texto.
 :::

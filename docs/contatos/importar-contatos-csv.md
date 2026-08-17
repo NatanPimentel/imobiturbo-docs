@@ -19,6 +19,8 @@ Economiza horas de trabalho manual cadastrando dezenas ou centenas de contatos s
 
 ![Modal de Importação de Contatos CSV](/img/guias/contatos/04-importar-csv.png)
 
+![Lista de contatos após a importação](/img/guias/contatos/01-lista-contatos.png)
+
 4. Clique em **Baixar Planilha Modelo** para obter o arquivo no formato correto (`.csv`).
 5. Abra a planilha em seu programa de preferência (Excel, Google Planilhas ou Calc) e preencha as colunas:
    - `nome`: Nome completo do contato.

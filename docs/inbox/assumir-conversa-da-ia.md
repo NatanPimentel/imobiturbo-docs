@@ -28,6 +28,8 @@ No painel central e no cabeçalho do chat, conversas sob responsabilidade da IA 
 
 ![Identificação da IA e Botão Assumir](/img/guias/inbox/03-assumir-atendimento-ia.png)
 
+![Painel lateral do lead na Inbox](/img/guias/inbox/04-painel-lateral-dados-lead.png)
+
 ---
 
 ## Passo a Passo para Assumir

@@ -28,6 +28,8 @@ Os **Templates** são textos salvos que você usa para **responder mais rápido*
 
 ![Biblioteca de Templates](/img/guias/inbox/05-templates-de-resposta.png)
 
+![Resposta rápida dentro da conversa](/img/guias/inbox/02-responder-mensagem.png)
+
 ### Parte 2 — Usar no atendimento
 
 1. Abra a **Inbox** e a conversa do cliente.

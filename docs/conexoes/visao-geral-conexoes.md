@@ -24,6 +24,8 @@ No painel de **Conexões**, cada canal por QR é representado por um cartão que
 
 ![Central de Conexões](/img/guias/conexoes/01-central-conexoes.png)
 
+![Formulários Meta na Central de Conexões](/img/guias/conexoes/06-formularios-meta.png)
+
 ## Vários Números por Imobiliária
 
 No Imobiturbo.OS:

@@ -21,6 +21,8 @@ A Inbox é dividida em três painéis funcionais:
 
 ![Estrutura da Inbox em 3 Colunas](/img/guias/inbox/01-inbox-3-colunas.png)
 
+![Filtros da fila de atendimento](/img/guias/inbox/02-filtros-fila-minhas-fechadas.png)
+
 ## O que acontece depois
 
 - Toda nova mensagem que chega no WhatsApp aparece instantaneamente no topo da lista.

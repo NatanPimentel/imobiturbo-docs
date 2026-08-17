@@ -26,6 +26,8 @@ Define como a IA deve se comportar na conversa: nome, tom de voz, regras de neg�
 
 ![Configuração de Agente de IA](/img/guias/agentes-ia/02-configurar-agente.png)
 
+![Lista de agentes para iniciar a configuração](/img/guias/agentes-ia/01-lista-agentes-ia-destaque.png)
+
 ### Parte 2 — Preencher a configuração
 
 - **Identificação**

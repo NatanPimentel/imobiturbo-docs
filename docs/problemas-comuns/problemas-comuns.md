@@ -7,6 +7,10 @@ description: Guia rápido de solução de problemas no Imobiturbo.OS — conexõ
 
 Antes de chamar o suporte, confira aqui os problemas mais frequentes e o que fazer em cada um.
 
+![Tela de Formulários Meta usada para diagnosticar conexões de leads](/img/guias/conexoes/06-formularios-meta.png)
+
+![Status das conexões para diagnosticar falhas](/img/guias/conexoes/03-status-reconectar.png)
+
 ## WhatsApp não conecta ou desconecta
 
 1. Confirme que o **celular está ligado e conectado à internet** (a conexão por QR depende do aparelho).

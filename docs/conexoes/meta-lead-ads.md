@@ -49,6 +49,9 @@ A tela oferece **duas formas** de conectar sua Página. Escolha uma:
 **Caminho A — Conectar com o Facebook (recomendado)**
 
 1. Na seção **"Ou conecte com o Facebook"**, clique em **Conectar Facebook**.
+
+![Destaque do botão Conectar Facebook](/img/guias/conexoes/06-formularios-meta-conectar-destaque.png)
+
 2. O CRM abre a janela oficial do Facebook. **Não feche a janela nem troque de perfil** no meio do caminho.
 3. Se a Meta perguntar, selecione o **Business Manager/perfil** correto e depois a **Página** que receberá os leads.
 4. Finalize em **Permitir / Continuar** (ou botão equivalente).
@@ -56,6 +59,9 @@ A tela oferece **duas formas** de conectar sua Página. Escolha uma:
 **Caminho B — Colar um token de acesso**
 
 1. Na seção **"Conectar com access token"**, cole o token da Meta (do *Graph API Explorer*, de um usuário do sistema no Business Manager ou um token de Página — começa com `EAAB…`).
+
+![Destaque da área de access token](/img/guias/conexoes/06-formularios-meta-token-destaque.png)
+
 2. Clique em **Validar token**.
 
 :::note[🔐 Sobre o token]
@@ -63,6 +69,10 @@ O CRM guarda o token **cifrado** e ele **nunca volta a aparecer** na tela. Não 
 :::
 
 **Como saber que deu certo:** depois de autorizar, a **Página aparece conectada** na tela. Se a lista ainda estiver carregando, clique em **Atualizar**.
+
+:::tip[Como ler os destaques]
+Os círculos numerados mostram exatamente o controle usado naquele passo. Se você escolher o caminho do Facebook, siga o print verde; se preferir token, siga o print azul.
+:::
 
 ### Parte 3 — Ativar o Instant Form no funil
 

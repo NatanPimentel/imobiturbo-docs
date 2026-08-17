@@ -19,6 +19,8 @@ Permite que você foque nas conversas que exigem ação imediata hoje, enquanto 
 
 ![Filtros e Status da Inbox](/img/guias/inbox/04-filtros-inbox.png)
 
+![Filtros de fila e status](/img/guias/inbox/02-filtros-fila-minhas-fechadas.png)
+
 ## Como filtrar conversas
 
 1. No topo da lista de conversas, clique na barra de busca ou no botão de **Filtros**.

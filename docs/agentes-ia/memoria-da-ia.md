@@ -28,6 +28,8 @@ A **Memória da IA** é o "manual de conduta" da sua operação: um documento co
 
 ![Memória da IA — documento da organização](/img/guias/agentes-ia/06-memoria-da-ia.png)
 
+![Histórico usado pela memória da IA](/img/guias/agentes-ia/04-historico-interacoes-ia.png)
+
 :::info[💡 Dicas de redação]
 - Use frases diretas: "Você NUNCA faz X", "quando o cliente pedir Y, avise o corretor".
 - Faça uma regra por linha/parágrafo.

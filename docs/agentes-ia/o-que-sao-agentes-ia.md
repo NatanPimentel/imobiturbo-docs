@@ -20,6 +20,8 @@ Garante que 100% dos contatos que chegam na sua imobiliária recebam resposta im
 
 ![Visão Geral dos Agentes de IA](/img/guias/agentes-ia/01-visao-agentes-ia.png)
 
+![Lista de agentes disponíveis](/img/guias/agentes-ia/01-lista-agentes-ia-destaque.png)
+
 ## Segurança e Controle
 
 Os agentes de IA do Imobiturbo.OS seguem estritamente as instruções fornecidas no prompt da imobiliária. Eles **nunca** inventam valores ou imóveis que não estejam cadastrados na sua base de conhecimento.
