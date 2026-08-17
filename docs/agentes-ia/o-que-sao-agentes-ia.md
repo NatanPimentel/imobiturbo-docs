@@ -23,3 +23,16 @@ Garante que 100% dos contatos que chegam na sua imobiliária recebam resposta im
 ## Segurança e Controle
 
 Os agentes de IA do Imobiturbo.OS seguem estritamente as instruções fornecidas no prompt da imobiliária. Eles **nunca** inventam valores ou imóveis que não estejam cadastrados na sua base de conhecimento.
+
+## O que alimenta um agente
+
+Um agente bem configurado usa **quatro fontes de conhecimento**, cada uma com um papel:
+
+| Fonte | Papel | Tutorial |
+|---|---|---|
+| **Instruções (prompt)** | A personalidade e as regras de comportamento | [Configurar e ativar](/docs/agentes-ia/configurar-e-ativar-agente) |
+| **Base de Conhecimento** | Conteúdo por assunto: FAQs, imóveis, regras | [Base de Conhecimento](/docs/agentes-ia/base-de-conhecimento) |
+| **Skills** | Habilidades ativadas pelo assunto da conversa | [Skills da IA](/docs/agentes-ia/skills-da-ia) |
+| **Memória** | Regras gerais da operação, válidas para todos | [Memória da IA](/docs/agentes-ia/memoria-da-ia) |
+
+E, se a sua operação atende assuntos diferentes no mesmo número, os **[Roteadores](/docs/agentes-ia/roteadores)** decidem qual agente assume cada conversa.

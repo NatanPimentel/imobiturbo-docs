@@ -22,17 +22,26 @@ const sidebars: SidebarsConfig = {
         'inbox/abrir-e-responder-conversa',
         'inbox/assumir-conversa-da-ia',
         'inbox/status-e-filtros-de-conversa',
+        'inbox/templates-de-resposta',
       ],
     },
     {
       type: 'category',
-      label: '🔌 Central de Conexões (WhatsApp)',
+      label: '📡 Radar — leads que esfriaram',
+      collapsed: false,
+      items: ['radar/radar-de-risco'],
+    },
+    {
+      type: 'category',
+      label: '🔌 Conexões',
       collapsed: false,
       items: [
         'conexoes/visao-geral-conexoes',
         'conexoes/conectar-whatsapp-qrcode',
         'conexoes/reconectar-e-gerenciar-sessoes',
         'conexoes/pedir-conexao-ao-corretor',
+        'conexoes/api-oficial-whatsapp',
+        'conexoes/meta-lead-ads',
       ],
     },
     {
@@ -64,6 +73,10 @@ const sidebars: SidebarsConfig = {
       items: [
         'agentes-ia/o-que-sao-agentes-ia',
         'agentes-ia/configurar-e-ativar-agente',
+        'agentes-ia/base-de-conhecimento',
+        'agentes-ia/skills-da-ia',
+        'agentes-ia/memoria-da-ia',
+        'agentes-ia/roteadores',
         'agentes-ia/estados-do-agente',
         'agentes-ia/handoff-humano-e-retomada',
       ],
@@ -82,9 +95,13 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: '📱 Aplicativo Mobile (PWA)',
       collapsed: false,
-      items: [
-        'aplicativo-mobile/como-instalar-o-pwa',
-      ],
+      items: ['aplicativo-mobile/como-instalar-o-pwa'],
+    },
+    {
+      type: 'category',
+      label: '🆘 Problemas Comuns',
+      collapsed: false,
+      items: ['problemas-comuns/problemas-comuns'],
     },
   ],
 };

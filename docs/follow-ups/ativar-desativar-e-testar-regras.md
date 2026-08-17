@@ -1,34 +1,55 @@
 ---
-title: Ativar, Desativar e Testar Regras
-description: Como gerenciar o ciclo de vida das suas automações e verificar o histórico de execuções com segurança.
+title: Publicar, Desativar e Acompanhar Fluxos
+description: Como ativar, desativar, testar e acompanhar os fluxos de follow-up e a fila de retornos no Imobiturbo.OS.
 ---
 
-# Ativar, Desativar e Testar Regras
+# Publicar, Desativar e Acompanhar Fluxos
 
-Você pode pausar ou reativar qualquer automação a qualquer momento sem perder as configurações já salvas, além de consultar o log de disparos realizados.
+Depois que um fluxo de follow-up é criado, três ações completam o ciclo: **publicar** (ativar), **desativar** quando não quiser mais e **acompanhar** a fila de retornos.
 
-## Para que serve
+## Publicar um fluxo
 
-Permite pausar temporariamente regras sazonais (como mensagens de feriado) e auditar se os disparos de follow-up estão sendo executados com sucesso para os clientes corretos.
+1. No menu lateral, abra **Follow-ups** → aba **Fluxos**.
+2. Abra o fluxo em **rascunho** e monte as etapas no editor.
+3. Clique em **Publicar**. O fluxo passa a ser executado nas novas conversas que correspondem ao gatilho.
 
-## Como ativar ou desativar uma regra
+## Desativar um fluxo
 
-1. Acesse o menu **Follow-ups** na barra lateral.
-2. Na lista de automações, localize a regra desejada.
-3. Alterne a chave seletora na coluna **Status** para ligar (🟢 Ativa) ou desligar (⚪ Inativa).
+1. Na lista de fluxos, localize o fluxo.
+2. Use o controle de **status** do fluxo (ou abra o fluxo e desative).
+3. Confirme. O fluxo para de disparar — ele não é apagado, então você pode reativar depois.
 
-![Histórico e Logs de Execução de Automações](/img/guias/follow-ups/03-logs-automacao.png)
+:::info[💡 Alterar um fluxo publicado]
+Ao **editar um fluxo publicado**, o sistema cria uma **nova versão**. A versão atual continua valendo até você **publicar a atualização** — assim uma edição incompleta nunca quebra o follow-up em produção.
+:::
 
-## Como testar uma regra antes de aplicar em produção
+## Acompanhar a fila de retornos
 
-1. Ao criar ou editar uma regra, clique no botão **Testar Regra**.
-2. Selecione um contato de teste da sua equipe ou informe o seu próprio número de WhatsApp.
-3. O sistema fará o envio imediato da mensagem de teste sem afetar clientes reais.
-4. Verifique a formatação do texto, pontuação e variáveis no seu WhatsApp.
+1. Abra **Follow-ups** → aba **Fila**.
+2. A fila mostra os **retornos agendados e pendentes**: quem será contatado, quando, por qual fluxo/agente e em que estado.
+3. Você pode:
+   - ver o que está **programado** para acontecer;
+   - **intervir** manualmente quando necessário (assumir o contato);
+   - confirmar que os **guardrails** (horário, opt-out, duplicidade) estão sendo respeitados.
 
-## Consultando o histórico de execuções (Logs)
+Os retornos agendados pelo **agente de IA** durante o atendimento (quando ele combina "volto a falar amanhã às 10h" com o cliente) também aparecem aqui — a fila é o ponto único de controle.
 
-Na aba **Histórico / Logs** dentro de Follow-ups, você pode verificar:
-- Nome do cliente e telefone que receberam o disparo.
-- Data e hora exatas da execução.
-- Status da entrega (🟢 Entregue, 🟡 Na Fila, 🔴 Falha no Envio).
+## Como saber que deu certo
+
+- Fluxos **Publicados** aparecem com o status correto na lista.
+- A **Fila** mostra os retornos esperados para hoje/amanhã.
+- Atrasos ou falhas aparecem no histórico do fluxo para diagnóstico.
+
+## Problemas comuns
+
+| O que aconteceu | O que fazer |
+|---|---|
+| Quero parar um fluxo agora | **Desative** o fluxo. Retornos já agendados podem ser cancelados na Fila. |
+| Editei mas nada mudou | Publique a **nova versão** — a antiga continua valendo até lá. |
+| A fila está gigante | Confira os fluxos ativos: talvez um gatilho esteja amplo demais (ex.: todas as mensagens). Ajuste a condição. |
+
+## Próximos passos
+
+- [Visão geral de Follow-ups e Automações](/docs/follow-ups/visao-geral-automacoes)
+- [Criar um fluxo de follow-up](/docs/follow-ups/criar-regra-de-automacao)
+- [Radar de risco](/docs/radar/radar-de-risco)

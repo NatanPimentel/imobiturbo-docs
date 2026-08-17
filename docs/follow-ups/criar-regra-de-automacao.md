@@ -1,34 +1,65 @@
 ---
-title: Criar uma Regra de Automação
-description: Passo a passo para configurar novos gatilhos, condições e ações de automação no CRM.
+title: Criar um Fluxo de Follow-up
+description: Passo a passo para criar um fluxo automático de follow-up no Imobiturbo.OS — gatilho, espera, condições, ações e publicação.
 ---
 
-# Criar uma Regra de Automação
+# Criar um Fluxo de Follow-up
 
-Criar regras de acompanhamento no Imobiturbo.OS é um processo visual e direto.
+Criar um follow-up automático no Imobiturbo.OS é montar um **fluxo visual**: o que dispara, quanto tempo esperar, em qual condição seguir, e **o que fazer** ao final.
 
-## Para que serve
+## Antes de começar
 
-Configura um fluxo automatizado para padronizar o processo comercial e economizar o tempo dos corretores em tarefas manuais.
+- Você é **gerente ou administrador** no Imobiturbo.OS.
+- O menu é **Follow-ups** na barra lateral → aba **Fluxos**.
 
-## Como fazer
+## Passo a passo
 
-1. Acesse o menu **Follow-ups** na barra lateral.
-2. Clique no botão **+ Nova Regra**.
-3. A janela do criador de regras será exibida:
+### Parte 1 — Criar o fluxo
 
-![Criador de Regra de Automação](/img/guias/follow-ups/02-criar-regra-automacao.png)
+1. No menu lateral, abra **Follow-ups** → aba **Fluxos**.
+2. Clique em **+ Novo fluxo**.
+3. Dê um **nome** claro (ex.: *Lead novo sem resposta*).
+4. O fluxo nasce como **rascunho** e abre o **editor visual**.
 
-4. Preencha os campos da regra:
-   - **Nome da Regra**: Um nome claro e descritivo (ex: *Lembrete de Visita - 2h antes*).
-   - **Gatilho (Quando)**: Selecione o evento disparador (ex: *Oportunidade movida para a etapa "Visita Agendada"*).
-   - **Tempo de Espera (Delay)**: Defina se a ação é imediata ou após um período (ex: *Aguardar 24 horas*).
-   - **Condições (Se)**: Adicione filtros opcionais (ex: *Se tag contém "Alto Padrão"*).
-   - **Ação (Então)**: Escolha o que deve acontecer (ex: *Enviar mensagem via WhatsApp*, *Adicionar Tag*, *Notificar Corretor Responsável*).
-   - **Texto da Mensagem**: Escreva o conteúdo utilizando variáveis dinâmicas como `{{nome}}` ou `{{imovel}}`.
-5. Clique em **Salvar Regra**.
+### Parte 2 — Montar as etapas
 
-## O que acontece depois
+No editor, o fluxo é uma sequência de **etapas** ligadas por setas (arestas). Monte o caminho que a conversa deve seguir:
 
-- A regra é registrada na lista de automações ativas.
-- Sempre que o evento configurado ocorrer em qualquer lead da sua base, o sistema executará as ações de acordo com as condições definidas.
+1. **Gatilho (início)**: escolha o evento que ativa o fluxo (ex.: *mensagem recebida*, *cliente em silêncio há X horas*, *mudança de etapa no funil*).
+2. **Espera (opcional)**: defina o tempo de espera antes da próxima etapa (ex.: *aguardar 24 horas*).
+3. **Condição**: para cada seta entre etapas, defina *"quando seguir por aqui"* (ex.: *cliente respondeu* / *continuou em silêncio*). Você pode usar o **agente de IA** para classificar a conversa quando a decisão for por assunto.
+4. **Ação**: o que acontece ao final do caminho — **enviar mensagem**, **aplicar etiqueta**, **passar para humano**, **mover no funil**.
+5. **Fim**: encerre o fluxo (ou ligue a outro fluxo para continuar o acompanhamento).
+
+### Parte 3 — Escrever a mensagem
+
+Ao configurar uma ação de mensagem, escreva o texto com **variáveis** do contato quando fizer sentido (ex.: `{{nome}}`, `{{imóvel}}`). O sistema preenche automaticamente com os dados do cliente.
+
+### Parte 4 — Publicar
+
+1. Revise o fluxo no editor.
+2. Clique em **Publicar**. O fluxo passa a **valer de verdade** — antes disso, é só rascunho.
+
+:::info[💡 Dica de começo]
+Comece simples: *gatilho (mensagem recebida) → espera 24h → condição (cliente não respondeu) → ação (enviar mensagem) → fim*. Depois que funcionar, adicione novos caminhos.
+:::
+
+## Como saber que deu certo
+
+- O fluxo aparece na lista com status **Publicado**.
+- Ao reproduzir a situação (cliente em silêncio), a mensagem automática é disparada — confira no histórico do fluxo e na **Fila**.
+- O disparo aparece no histórico/registro do fluxo com a conversa e a ação executada.
+
+## Problemas comuns
+
+| O que aconteceu | O que fazer |
+|---|---|
+| O fluxo não dispara | Confira se ele está **Publicado** (rascunho não roda) e se o *gatilho* corresponde à situação real. |
+| A mensagem não chega | Verifique horário de atendimento, **opt-out** do cliente e se o número/canal do fluxo está conectado. |
+| Não consigo publicar | O editor valida o fluxo: preencha todas as etapas obrigatórias e ligue as setas corretamente. |
+| Mensagem duplicada | Os guardrails evitam duplicidade; se acontecer, revise se há dois fluxos cobrindo o mesmo caso. |
+
+## Próximos passos
+
+- [Publicar, desativar e testar fluxos](/docs/follow-ups/ativar-desativar-e-testar-regras)
+- [Visão geral de Follow-ups e Automações](/docs/follow-ups/visao-geral-automacoes)

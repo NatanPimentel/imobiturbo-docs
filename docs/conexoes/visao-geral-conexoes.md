@@ -5,15 +5,17 @@ description: Visão geral da Central de Conexões do WhatsApp no Imobiturbo.OS.
 
 # Central de Conexões
 
-A **Central de Conexões** é o painel onde você gerencia os números de WhatsApp e canais de comunicação da sua imobiliária.
+A **Central de Conexões** é o painel onde você gerencia os números de WhatsApp e os canais que trazem clientes para o Imobiturbo.OS: WhatsApp por QR, WhatsApp API Oficial (Meta) e os Formulários dos seus anúncios.
 
-## Para que serve
+## O que você conecta aqui
 
-Ela permite que sua imobiliária tenha múltiplos números conectados simultaneamente — como o número comercial da empresa e os números individuais de cada corretor — gerenciando o status de conexão de cada um de forma independente.
+| Canal | Para que serve | Tutorial |
+|---|---|---|
+| **Números por QR** | Cada corretor conecta o próprio WhatsApp (como o WhatsApp Web) | [Conectar por QR Code](/docs/conexoes/conectar-whatsapp-qrcode) |
+| **API Oficial (Meta)** | Número oficial do WhatsApp Business, sem celular ligado, com templates | [WhatsApp API Oficial](/docs/conexoes/api-oficial-whatsapp) |
+| **Formulários Meta** | Leads dos anúncios do Facebook/Instagram direto no funil | [Meta Lead Ads](/docs/conexoes/meta-lead-ads) |
 
-## Como funciona
-
-Na Central de Conexões, cada canal é representado por um cartão que exibe:
+No painel de **Conexões**, cada canal por QR é representado por um cartão que exibe:
 - Nome de identificação do canal.
 - Número de telefone cadastrado.
 - Corretor ou administrador responsável pelo número.
@@ -39,3 +41,5 @@ Com os números conectados:
 
 - [Conectar WhatsApp por QR Code](/docs/conexoes/conectar-whatsapp-qrcode)
 - [Pedir para o corretor conectar seu número](/docs/conexoes/pedir-conexao-ao-corretor)
+- [WhatsApp API Oficial (Meta)](/docs/conexoes/api-oficial-whatsapp)
+- [Meta Lead Ads (Formulários de anúncios)](/docs/conexoes/meta-lead-ads)
