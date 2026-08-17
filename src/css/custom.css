@@ -746,3 +746,79 @@ kbd {
 .title_f1Hy a:hover {
   color: #D2E854 !important;
 }
+
+/* ===== Responsividade mobile ===== */
+@media (max-width: 996px) {
+  .hero-banner {
+    padding: 3.5rem 1.25rem 3rem;
+  }
+  .hero-banner h1 {
+    font-size: 2.6rem;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .hero-banner h1 span {
+    white-space: nowrap;
+  }
+  .hero-banner p {
+    font-size: 1.05rem;
+    margin-bottom: 1.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    padding: 0.5rem 0.75rem;
+  }
+  /* CTA do navbar não estoura a largura */
+  .navbar-cta-button {
+    font-size: 0.82rem !important;
+    padding: 0.45rem 0.9rem !important;
+    margin-left: 0.35rem;
+  }
+  .hero-banner h1 {
+    font-size: 2.05rem;
+    letter-spacing: -0.03em;
+  }
+  /* Botões do hero empilham e ocupam a largura toda (alvo de toque confortável) */
+  .hero-cta-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.85rem;
+    width: 100%;
+  }
+  .hero-btn-primary,
+  .hero-btn-secondary {
+    width: 100%;
+    justify-content: center;
+    padding: 1rem 1.25rem;
+  }
+  .category-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 2.25rem 0;
+  }
+  .category-card {
+    padding: 1.5rem;
+  }
+  .markdown h1:first-child {
+    font-size: 2.1rem;
+  }
+  .markdown h2 {
+    font-size: 1.5rem;
+  }
+  .markdown table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-banner h1 {
+    font-size: 1.75rem;
+  }
+  .hero-banner h1 span {
+    white-space: normal;
+  }
+}

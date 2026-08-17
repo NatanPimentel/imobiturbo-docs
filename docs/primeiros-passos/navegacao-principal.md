@@ -28,11 +28,13 @@ Permite que você alterne instantaneamente entre atender clientes, acompanhar ne
 11. **Follow-ups**: Fluxos automáticos de reengajamento e fila de retornos.
 12. **Memória da IA**: Regras gerais da operação que todos os agentes respeitam.
 13. **Skills da IA**: Habilidades especializadas que os agentes ativam conforme o assunto.
-14. **Evolução da IA**: Acompanhamento da qualidade/evolução dos agentes.
-15. **Configurações**: Ajustes de dados da empresa, segurança e permissões de acesso.
+14. **Evolução da IA**: Acompanhamento do que o agente aprendeu, negócios fechados/perdidos e lacunas do atendimento.
+15. **Webhooks / Automações**: Regras QUANDO/SE/ENTÃO (resposta por frase, distribuição de leads) e recebimento/envio de dados entre sistemas.
+16. **LGPD**: Solicitações de dados e anonimização com trilha de auditoria.
+17. **Configurações**: Ajustes de dados da empresa, segurança e permissões de acesso.
 
 :::info[🔎 Itens que dependem de permissão]
-Algumas seções (Agentes IA, Roteadores, Follow-ups, Memória, Skills, LGPD, Webhooks) aparecem de acordo com o **papel** na imobiliária: Corretor, Gerente ou Administrador. Se uma seção não aparece, peça ao administrador da conta para ajustar suas permissões.
+Algumas seções (Agentes IA, Roteadores, Follow-ups, Memória, Skills, Webhooks/Automações, LGPD) aparecem de acordo com o **papel** na imobiliária: Corretor, Gestor ou Administrador. Se uma seção não aparece, peça ao administrador da conta para ajustar suas permissões.
 :::
 
 ## O que acontece depois

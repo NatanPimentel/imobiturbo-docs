@@ -41,6 +41,8 @@ const sidebars: SidebarsConfig = {
         'conexoes/reconectar-e-gerenciar-sessoes',
         'conexoes/pedir-conexao-ao-corretor',
         'conexoes/api-oficial-whatsapp',
+        'conexoes/migrar-numero-para-api-oficial',
+        'conexoes/criar-templates-na-meta',
         'conexoes/meta-lead-ads',
       ],
     },
@@ -68,6 +70,15 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: '🧑‍🤝‍🧑 Equipe e Desempenho',
+      collapsed: false,
+      items: [
+        'equipe/visao-geral-equipe',
+        'desempenho/visao-geral-desempenho',
+      ],
+    },
+    {
+      type: 'category',
       label: '🤖 Agentes de Inteligência Artificial',
       collapsed: false,
       items: [
@@ -79,17 +90,35 @@ const sidebars: SidebarsConfig = {
         'agentes-ia/roteadores',
         'agentes-ia/estados-do-agente',
         'agentes-ia/handoff-humano-e-retomada',
+        'agentes-ia/evolucao-da-ia',
       ],
     },
     {
       type: 'category',
-      label: '⚡ Follow-ups e Automações',
+      label: '⚡ Follow-ups (retornos agendados)',
       collapsed: false,
       items: [
         'follow-ups/visao-geral-automacoes',
         'follow-ups/criar-regra-de-automacao',
         'follow-ups/ativar-desativar-e-testar-regras',
       ],
+    },
+    {
+      type: 'category',
+      label: '🔁 Regras de Automação (QUANDO/SE/ENTÃO)',
+      collapsed: false,
+      items: [
+        'automacoes/visao-geral-automacoes',
+        'automacoes/automacao-frase-do-anuncio',
+        'automacoes/criar-regra-quando-se-entao',
+        'automacoes/avancado-webhooks',
+      ],
+    },
+    {
+      type: 'category',
+      label: '🔐 LGPD',
+      collapsed: false,
+      items: ['lgpd/solicitacoes-lgpd'],
     },
     {
       type: 'category',

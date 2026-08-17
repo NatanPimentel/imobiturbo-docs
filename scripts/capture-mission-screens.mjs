@@ -94,6 +94,56 @@ async function run() {
   await page.goto('https://os.imobiturbo.com.br/app/templates', { waitUntil: 'networkidle' });
   await shot(page, 'inbox', '05-templates-de-resposta.png');
 
+  // ==== Rodada 2: Equipe, Desempenho, Evolução, LGPD, Automações, Templates da Meta ====
+
+  // Equipe — Membros (nomes/e-mails → borrar tbody)
+  console.log('\n--- Equipe Membros ---');
+  await page.goto('https://os.imobiturbo.com.br/app/team', { waitUntil: 'networkidle' });
+  await page.addStyleTag({ content: 'table tbody { filter: blur(6px); }' });
+  await shot(page, 'equipe', '01-membros-equipe.png');
+
+  // Equipe — Atendimento (SLA)
+  console.log('\n--- Equipe Atendimento ---');
+  await page.click('button:has-text("Atendimento")').catch(() => {});
+  await page.waitForTimeout(1200);
+  await shot(page, 'equipe', '02-atendimento-sla.png');
+  await page.reload({ waitUntil: 'networkidle' });
+
+  // Desempenho
+  console.log('\n--- Desempenho ---');
+  await page.goto('https://os.imobiturbo.com.br/app/metrics', { waitUntil: 'networkidle' });
+  await page.addStyleTag({ content: 'table tbody { filter: blur(6px); }' });
+  await shot(page, 'desempenho', '01-desempenho-funil.png');
+  await page.reload({ waitUntil: 'networkidle' });
+
+  // Evolução da IA
+  console.log('\n--- Evolução da IA ---');
+  await page.goto('https://os.imobiturbo.com.br/app/ai/evolution', { waitUntil: 'networkidle' });
+  await page.addStyleTag({ content: '[data-testid="gap-item"] { filter: blur(6px); }' });
+  await shot(page, 'agentes-ia', '09-evolucao-da-ia.png');
+  await page.reload({ waitUntil: 'networkidle' });
+
+  // LGPD — Solicitações
+  console.log('\n--- LGPD ---');
+  await page.goto('https://os.imobiturbo.com.br/app/lgpd/requests', { waitUntil: 'networkidle' });
+  await page.addStyleTag({ content: 'table tbody { filter: blur(6px); }' });
+  await shot(page, 'lgpd', '01-solicitacoes-lgpd.png');
+  await page.reload({ waitUntil: 'networkidle' });
+
+  // Webhooks — aba Automações (regras QUANDO/SE/ENTÃO)
+  console.log('\n--- Webhooks Automações ---');
+  await page.goto('https://os.imobiturbo.com.br/app/webhooks', { waitUntil: 'networkidle' });
+  await page.click('button:has-text("Automações")').catch(() => {});
+  await page.waitForTimeout(1200);
+  await shot(page, 'webhooks', '01-automacoes-regras.png');
+  await page.reload({ waitUntil: 'networkidle' });
+
+  // Conexões — Templates da Meta (subaba)
+  console.log('\n--- Templates da Meta ---');
+  await page.goto('https://os.imobiturbo.com.br/app/connections?aba=oficial&sub=templates', { waitUntil: 'networkidle' });
+  await page.addStyleTag({ content: 'code { filter: blur(6px); } span.font-mono { filter: blur(6px); }' });
+  await shot(page, 'conexoes', '09-templates-da-meta.png');
+
   await browser.close();
   console.log('\nDone.');
 }

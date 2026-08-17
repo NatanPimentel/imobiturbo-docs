@@ -24,10 +24,16 @@ const CATEGORIES: CategoryCardProps[] = [
     link: '/docs/inbox/visao-geral-inbox',
   },
   {
-    title: 'Conexões (WhatsApp)',
-    description: 'Conecte instâncias de WhatsApp por QR Code e permita que cada corretor conecte seu número.',
+    title: 'Conexões (WhatsApp e Meta)',
+    description: 'Conecte WhatsApp por QR ou API Oficial, receba leads dos anúncios e gerencie todos os canais.',
     icon: '🔌',
     link: '/docs/conexoes/visao-geral-conexoes',
+  },
+  {
+    title: 'Radar — leads que esfriaram',
+    description: 'Veja demandas que pararam de andar e retome o cliente antes que a venda esfrie.',
+    icon: '📡',
+    link: '/docs/radar/radar-de-risco',
   },
   {
     title: 'CRM e Kanban',
@@ -43,13 +49,13 @@ const CATEGORIES: CategoryCardProps[] = [
   },
   {
     title: 'Agentes de IA',
-    description: 'Configure assistentes inteligentes para triagem imediata de leads e transbordo para corretores.',
+    description: 'Configure assistentes de IA com Skills, Base de Conhecimento, Memória e Roteadores para triar e qualificar leads.',
     icon: '🤖',
     link: '/docs/agentes-ia/o-que-sao-agentes-ia',
   },
   {
     title: 'Follow-ups e Automações',
-    description: 'Crie regras automáticas QUANDO/SE/ENTÃO para disparar mensagens e organizar a operação.',
+    description: 'Crie fluxos automáticos de mensagem e acompanhe a fila de retornos com o editor visual.',
     icon: '⚡',
     link: '/docs/follow-ups/visao-geral-automacoes',
   },
@@ -58,6 +64,12 @@ const CATEGORIES: CategoryCardProps[] = [
     description: 'Instale o Imobiturbo.OS no seu smartphone (iOS e Android) para atender clientes de onde estiver.',
     icon: '📱',
     link: '/docs/aplicativo-mobile/como-instalar-o-pwa',
+  },
+  {
+    title: 'Problemas Comuns',
+    description: 'Diagnóstico rápido para os problemas mais frequentes: WhatsApp, IA, anúncios, login e lentidão.',
+    icon: '🆘',
+    link: '/docs/problemas-comuns',
   },
   {
     title: 'Novidades e Versões',
