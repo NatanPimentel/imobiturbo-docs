@@ -16,16 +16,24 @@ Permite que você alterne instantaneamente entre atender clientes, acompanhar ne
 ![Menu de Navegação](/img/guias/primeiros-passos/04-menu-navegacao.png)
 
 1. **Inbox (Atendimento)**: Central unificada de conversas em tempo real com clientes do WhatsApp.
-2. **Radar**: Monitoramento em tempo real de atendimentos pendentes e prazos de resposta (SLA).
-3. **Conexões**: Painel de gerenciamento de números de WhatsApp e instâncias conectadas.
+2. **Radar**: Conversas que esfriaram e precisam de ação (leads em risco).
+3. **Conexões**: Números de WhatsApp (QR e API Oficial da Meta) e Formulários de anúncios.
 4. **Kanban**: Funil visual de vendas dividido por etapas comerciais.
 5. **Contatos**: Base cadastral completa de clientes, proprietários e investidores.
 6. **Equipe**: Gestão de corretores, gerentes, convites e métricas individuais de atendimento.
-7. **Desempenho**: Relatórios de volume de mensagens, tempo de resposta e taxas de conversão.
+7. **Desempenho**: Relatórios de funil e performance por atendente.
 8. **Templates**: Modelos de mensagens rápidas e textos padronizados para envio em um clique.
 9. **Agentes IA**: Criação e calibração de assistentes inteligentes para triagem e qualificação.
-10. **Follow-ups**: Regras de automação e disparos programados de mensagens.
-11. **Configurações**: Ajustes de dados da empresa, segurança e permissões de acesso.
+10. **Roteadores**: Distribuem a primeira mensagem para o agente certo (compra, aluguel, captação).
+11. **Follow-ups**: Fluxos automáticos de reengajamento e fila de retornos.
+12. **Memória da IA**: Regras gerais da operação que todos os agentes respeitam.
+13. **Skills da IA**: Habilidades especializadas que os agentes ativam conforme o assunto.
+14. **Evolução da IA**: Acompanhamento da qualidade/evolução dos agentes.
+15. **Configurações**: Ajustes de dados da empresa, segurança e permissões de acesso.
+
+:::info[🔎 Itens que dependem de permissão]
+Algumas seções (Agentes IA, Roteadores, Follow-ups, Memória, Skills, LGPD, Webhooks) aparecem de acordo com o **papel** na imobiliária: Corretor, Gerente ou Administrador. Se uma seção não aparece, peça ao administrador da conta para ajustar suas permissões.
+:::
 
 ## O que acontece depois
 

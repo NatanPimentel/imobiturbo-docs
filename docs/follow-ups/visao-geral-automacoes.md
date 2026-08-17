@@ -1,26 +1,47 @@
 ---
-title: Visão Geral de Automações e Follow-ups
-description: Como funcionam as regras automáticas de acompanhamento, disparos de mensagens e organização de rotinas no Imobiturbo.OS.
+title: Visão Geral de Follow-ups e Automações
+description: Como funcionam os fluxos automáticos de reengajamento do Imobiturbo.OS — conversas que seguem sozinhas até fechar.
 ---
 
-# Visão Geral de Automações e Follow-ups
+# Visão Geral de Follow-ups e Automações
 
-A central de **Follow-ups e Automações** permite criar regras automáticas baseadas em eventos para que sua imobiliária nunca deixe um cliente sem contato ou perca prazos importantes.
+A área de **Follow-ups** cuida dos **fluxos automáticos de reengajamento**: regras do tipo *"se o cliente ficou em silêncio, mande uma mensagem"* que rodam sozinhas, sem corretor na frente.
 
 ## Para que serve
 
-Automatiza tarefas repetitivas como:
-- Enviar mensagem de boas-vindas para leads que entram fora do horário comercial.
-- Enviar lembrete automático de visita 2 horas antes do horário marcado.
-- Fazer follow-up com clientes que pararam de responder após o envio de uma proposta.
-- Aplicar tags automaticamente de acordo com as respostas do cliente.
+Automatiza os cuidados de rotina que evitam perder venda:
+- Cliente **novo que não respondeu** → mensagem automática depois de X horas;
+- **Silêncio após proposta** → lembrete ou passagem para humano;
+- **Mudança de etapa no funil** → acompanhamento na nova etapa;
+- **Fim de conversa** → follow-up programado.
 
-![Lista de Regras de Automação](/img/guias/follow-ups/01-lista-automacoes.png)
+## Como funciona
 
-## Como funcionam as regras
+1. **Fluxos**: você monta o passo a passo automático (gatilho → espera → condição → ação → fim) em um editor visual. Cada fluxo nasce como **rascunho** e precisa ser **publicado** para valer.
+2. **Fila**: mostra os retornos **agendados/pendentes** — o que já está programado para acontecer (inclusive retornos combinados pelo agente de IA durante o atendimento).
 
-Cada automação é estruturada no padrão lógico **QUANDO / SE / ENTÃO**:
+![Fluxos de follow-up](/img/guias/follow-ups/04-fluxos-followup.png)
 
-1. **QUANDO (Gatilho)**: O evento que dispara a automação (ex: *Novo lead cadastrado*, *Lead movido para Visita Agendada*, *Cliente sem resposta há 48h*).
-2. **SE (Condições)**: Filtros opcionais para segmentar a regra (ex: *Apenas leads da tag "Lançamento"*, *Apenas no canal de WhatsApp X*).
-3. **ENTÃO (Ações)**: As ações executadas automaticamente pelo sistema (ex: *Enviar mensagem de texto*, *Adicionar tag*, *Atribuir corretor*, *Mover no Kanban*).
+## O que cada fluxo pode fazer
+
+- **Gatilho**: o evento que inicia o fluxo (ex.: *mensagem recebida*, *cliente em silêncio*, *mudança de etapa*).
+- **Espera**: aguardar um tempo (horas/dias) antes de seguir.
+- **Condição**: decidir o caminho (ex.: *cliente respondeu* → segue por um lado; *continuou em silêncio* → outro).
+- **Ação**: enviar mensagem, aplicar etiqueta, chamar um humano, mover no funil.
+- **IA**: alguns fluxos usam o **agente de IA** para classificar a conversa e decidir o próximo passo.
+
+:::info[✅ Guardrails automáticos]
+Os fluxos respeitam sempre os horários de atendimento, o **opt-out** (cliente que pediu para não receber mensagem) e a **proteção contra duplicidade** — o mesmo cliente não recebe a mesma mensagem duas vezes por engano.
+:::
+
+## O que acontece depois
+
+- O agente de IA já pode agendar retornos durante a conversa — eles aparecem na **Fila**.
+- Você acompanha a **Fila** e intervém quando necessário.
+- Fluxos bem configurados reduzem drasticamente os itens do [Radar](/docs/radar/radar-de-risco).
+
+## Próximos passos
+
+- [Criar um fluxo de follow-up](/docs/follow-ups/criar-regra-de-automacao)
+- [Publicar, desativar e testar fluxos](/docs/follow-ups/ativar-desativar-e-testar-regras)
+- [Configurar e ativar um agente de IA](/docs/agentes-ia/configurar-e-ativar-agente)
